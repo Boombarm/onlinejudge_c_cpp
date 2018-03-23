@@ -1,19 +1,8 @@
-<<<<<<< HEAD
 D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/uri_p1883_cpp.dir
 D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/uri_p1883_c.dir
 D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/uri_p1569_c.dir
 D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/uri_P2500_c.dir
+D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/testFile.dir
 D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/uri_P2692_c.dir
 D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-=======
-H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
-H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/uri_p1883_c.dir
-H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/uri_p1883_cpp.dir
-H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/uri_P2692_c.dir
-H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/testFile.dir
-H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/p1883.dir
-H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/uri_p1569_c.dir
-H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/uri_P2500_c.dir
-H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
->>>>>>> 1a7d393f670effc6ec0b32d6fdb74a00c4807ea4

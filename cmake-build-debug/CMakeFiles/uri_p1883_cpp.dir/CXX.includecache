@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-H:/CLionProjects/onlinejudge_c_cpp/URI/P1883_Escape_From_Ayutthaya.cpp
-bits/stdc++.h
+D:/Projects/CLionProjects/onlinejudge_c_cpp/URI/P1883_Escape_From_Ayutthaya.cpp
+iostream
+-
+queue
 -
 

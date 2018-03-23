@@ -1,79 +1,92 @@
-#include<bits/stdc++.h>
+/**
+ * @author Teerapat Phokhonwong
+ * @Onlinejudge: URI Online Judge
+ * @Categories: AD-HOC
+ * @Problem: 1883 - Zoeiro Keyboard
+ * @Link: https://www.urionlinejudge.com.br/judge/en/problems/view/1883
+ * @Timelimit: 1 sec
+ * @LANGUAGE: C++17
+ * @Status: Accepted
+ * @Submission: 3/21/18, 2:13:14 AM
+ * @Runtime: 0.412s
+ * @Solution: BFS
+ * @Note:
+ */
+
+#include <iostream>
+#include <queue>
 
 using namespace std;
+
 const int MX = 1005;
+const int BURNED = -1;
+const int VISITED = 1;
 const char WALL = '#';
 
 char board[MX][MX];
 int fire[MX][MX], n, m;
+bool visit[MX][MX];
 
 struct point {
     int x, y, t;
 
     point() {}
 
-    point(int _y, int _x, int _t) : y(_y), x(_x), t(_t) {}
+    point(int tx, int ty) : x(tx), y(ty) {}
+
+    point(int tx, int ty, int tt) : x(tx), y(ty), t(tt) {}
 
 };
 
-//top -> bot - right - left
-int fy[] = {-1, 1, 0, 0};
-int fx[] = {0, 0, -1, 1};
+int mx[] = {1, 0, -1, 0};
+int my[] = {0, 1, 0, -1};
 
-void BFS_fire(vector<point> &firePoint) {
+void fireSpread(vector<point> &f) {
     queue<point> Q;
-    for (int i = 0; i < firePoint.size(); i++) {
-        Q.push(firePoint[i]);
-        int x = firePoint[i].x;
-        int y = firePoint[i].y;
-        fire[y][x] = 1;
+    for (int j = 0; j < f.size(); ++j) {
+        Q.push(f[j]);
+        fire[f[j].x][f[j].y] = 1;
     }
-
 
     while (!Q.empty()) {
         point tm = Q.front();
         Q.pop();
-        int x = tm.x;
-        int y = tm.y;
-        int t = tm.t;
-        fire[y][x] = t;
-        t = t + 1;
+        int t = tm.t + 1;
         for (int i = 0; i < 4; i++) {
-            int ty = y + fy[i];
-            int tx = x + fx[i];
-            if (ty >= 0 && ty < n
-                && tx >= 0 && tx < m
-                && board[ty][tx] != WALL
-                && fire[ty][tx] == 0) {
-                Q.push(point(ty, tx, t));
+            int tx = tm.x + mx[i];
+            int ty = tm.y + my[i];
+            if (tx >= 0 && tx < n
+                && ty >= 0 && ty < m
+                && board[tx][ty] != WALL
+                && fire[tx][ty] == BURNED) {
+                fire[tx][ty] = t;
+                Q.push(point(tx, ty, t));
             }
         }
     }
 }
 
-bool BFS(point &s, point &e) {
+bool escape(point &s, point &e) {
     queue<point> Q;
     Q.push(s);
+    visit[s.x][s.y] = VISITED;
     while (!Q.empty()) {
-        point p = Q.front();
+        point tm = Q.front();
         Q.pop();
-        int y = p.y;
-        int x = p.x;
-        int t = p.t;
-        board[y][x] = 1;
-        if (p.x == e.x && p.y == e.y) {
+        if (tm.x == e.x && tm.y == e.y) {
             return true;
         }
-
-        t += 1;
+        int t = tm.t + 1;
         for (int i = 0; i < 4; i++) {
-            int ty = p.y + fy[i];
-            int tx = p.x + fx[i];
-            if (ty >= 0 && ty < n
-                && tx >= 0 && ty < m
-                && t < fire[ty][tx]
-                && board[ty][tx] == 0) {
-                Q.push(point(ty, tx, t));
+            int tx = tm.x + mx[i];
+            int ty = tm.y + my[i];
+            if (tx >= 0 && tx < n
+                && ty >= 0 && ty < m
+                && board[tx][ty] != WALL
+                && t < fire[tx][ty]
+                && visit[tx][ty] == 0) {
+                visit[tx][ty] = VISITED;
+                Q.push(point(tx, ty, t));
             }
         }
     }
@@ -85,44 +98,28 @@ int main() {
     cin >> t;
     while (t--) {
         cin >> n >> m;
-        vector<point> firePoint;
-        point startPoint, endPoint;
-        char c;
-        for (int y = 0; y < n; y++) {
-            for (int x = 0; x < m; x++) {
-                cin >> c;
-                fire[y][x] = 0;
-                board[y][x] = 0;
-                switch (c) {
-                    case '#':
-                        board[y][x] = WALL;
-                        break;
-                    case 'F':
-                        firePoint.push_back(point(y, x, 1));
+        vector<point> vf;
+        point st, en;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                cin >> board[i][j];
+                switch (board[i][j]) {
+                    case 'F' :
+                        vf.push_back(point(i, j, 1));
                         break;
                     case 'S':
-                        startPoint.x = x;
-                        startPoint.y = y;
-                        startPoint.t = 1;
+                        st = point(i, j, 1);
                         break;
                     case 'E':
-                        endPoint.x = x;
-                        endPoint.y = y;
+                        en = point(i, j);
                         break;
                 }
+                fire[i][j] = BURNED;
+                visit[i][j] = 0;
             }
         }
-        BFS_fire(firePoint);
-//        for (int i = 0; i < n; i++) {
-//            for (int j = 0; j < m; j++) {
-//                cout << fire[i][j];
-//            }
-//            cout << endl;
-//        }
-//        cout << endl;
-
-        cout << (BFS(startPoint, endPoint) ? "Y\n" : "N\n");
+        fireSpread(vf);
+        cout << (escape(st, en) ? "Y" : "N") << endl;
     }
-    cout << flush;
     return 0;
 }

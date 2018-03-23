@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "H:/CLionProjects/onlinejudge_c_cpp/URI/P1883.cpp" "H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/p1883.dir/URI/P1883.cpp.obj"
+  "D:/Projects/CLionProjects/onlinejudge_c_cpp/URI/P1883.cpp" "D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/p1883.dir/URI/P1883.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

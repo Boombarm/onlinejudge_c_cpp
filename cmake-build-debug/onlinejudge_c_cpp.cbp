@@ -27,48 +27,6 @@
 					<DistClean command="C:/PROGRA~1/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="uri_p1883_c">
-				<Option output="H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/uri_p1883_c.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 uri_p1883_c"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="uri_p1883_c/fast">
-				<Option output="H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/uri_p1883_c.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 uri_p1883_c/fast"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="uri_p1883_cpp">
 				<Option output="D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/uri_p1883_cpp.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug"/>
@@ -111,15 +69,9 @@
 					<DistClean command="C:/PROGRA~1/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-<<<<<<< HEAD
 			<Target title="uri_p1883_c">
 				<Option output="D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/uri_p1883_c.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug"/>
-=======
-			<Target title="uri_P2692_c">
-				<Option output="H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/uri_P2692_c.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug"/>
->>>>>>> 1a7d393f670effc6ec0b32d6fdb74a00c4807ea4
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -132,7 +84,6 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
 				</Compiler>
 				<MakeCommands>
-<<<<<<< HEAD
 					<Build command="C:/PROGRA~1/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 uri_p1883_c"/>
 					<CompileFile command="C:/PROGRA~1/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -142,17 +93,6 @@
 			<Target title="uri_p1883_c/fast">
 				<Option output="D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/uri_p1883_c.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug"/>
-=======
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 uri_P2692_c"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="uri_P2692_c/fast">
-				<Option output="H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/uri_P2692_c.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug"/>
->>>>>>> 1a7d393f670effc6ec0b32d6fdb74a00c4807ea4
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -165,7 +105,6 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
 				</Compiler>
 				<MakeCommands>
-<<<<<<< HEAD
 					<Build command="C:/PROGRA~1/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 uri_p1883_c/fast"/>
 					<CompileFile command="C:/PROGRA~1/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -175,17 +114,6 @@
 			<Target title="uri_p1569_c">
 				<Option output="D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/uri_p1569_c.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug"/>
-=======
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 uri_P2692_c/fast"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="testFile">
-				<Option output="H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/testFile.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug"/>
->>>>>>> 1a7d393f670effc6ec0b32d6fdb74a00c4807ea4
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -198,7 +126,6 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
 				</Compiler>
 				<MakeCommands>
-<<<<<<< HEAD
 					<Build command="C:/PROGRA~1/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 uri_p1569_c"/>
 					<CompileFile command="C:/PROGRA~1/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -208,17 +135,6 @@
 			<Target title="uri_p1569_c/fast">
 				<Option output="D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/uri_p1569_c.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug"/>
-=======
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 testFile"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="testFile/fast">
-				<Option output="H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/testFile.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug"/>
->>>>>>> 1a7d393f670effc6ec0b32d6fdb74a00c4807ea4
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -231,7 +147,6 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
 				</Compiler>
 				<MakeCommands>
-<<<<<<< HEAD
 					<Build command="C:/PROGRA~1/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 uri_p1569_c/fast"/>
 					<CompileFile command="C:/PROGRA~1/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -241,17 +156,6 @@
 			<Target title="uri_P2500_c">
 				<Option output="D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/uri_P2500_c.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug"/>
-=======
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 testFile/fast"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="p1883">
-				<Option output="H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/p1883.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug"/>
->>>>>>> 1a7d393f670effc6ec0b32d6fdb74a00c4807ea4
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -264,7 +168,6 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
 				</Compiler>
 				<MakeCommands>
-<<<<<<< HEAD
 					<Build command="C:/PROGRA~1/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 uri_P2500_c"/>
 					<CompileFile command="C:/PROGRA~1/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -274,17 +177,6 @@
 			<Target title="uri_P2500_c/fast">
 				<Option output="D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/uri_P2500_c.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug"/>
-=======
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 p1883"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="p1883/fast">
-				<Option output="H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/p1883.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug"/>
->>>>>>> 1a7d393f670effc6ec0b32d6fdb74a00c4807ea4
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -297,8 +189,49 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
 				</Compiler>
 				<MakeCommands>
-<<<<<<< HEAD
 					<Build command="C:/PROGRA~1/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 uri_P2500_c/fast"/>
+					<CompileFile command="C:/PROGRA~1/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testFile">
+				<Option output="D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/testFile.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 testFile"/>
+					<CompileFile command="C:/PROGRA~1/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testFile/fast">
+				<Option output="D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/testFile.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 testFile/fast"/>
 					<CompileFile command="C:/PROGRA~1/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~1/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -307,17 +240,6 @@
 			<Target title="uri_P2692_c">
 				<Option output="D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/uri_P2692_c.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug"/>
-=======
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 p1883/fast"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="uri_p1569_c">
-				<Option output="H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/uri_p1569_c.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug"/>
->>>>>>> 1a7d393f670effc6ec0b32d6fdb74a00c4807ea4
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -330,7 +252,6 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
 				</Compiler>
 				<MakeCommands>
-<<<<<<< HEAD
 					<Build command="C:/PROGRA~1/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 uri_P2692_c"/>
 					<CompileFile command="C:/PROGRA~1/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -340,17 +261,6 @@
 			<Target title="uri_P2692_c/fast">
 				<Option output="D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/uri_P2692_c.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug"/>
-=======
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 uri_p1569_c"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="uri_p1569_c/fast">
-				<Option output="H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/uri_p1569_c.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug"/>
->>>>>>> 1a7d393f670effc6ec0b32d6fdb74a00c4807ea4
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -363,59 +273,10 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
 				</Compiler>
 				<MakeCommands>
-<<<<<<< HEAD
 					<Build command="C:/PROGRA~1/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 uri_P2692_c/fast"/>
 					<CompileFile command="C:/PROGRA~1/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~1/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-=======
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 uri_p1569_c/fast"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="uri_P2500_c">
-				<Option output="H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/uri_P2500_c.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 uri_P2500_c"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="uri_P2500_c/fast">
-				<Option output="H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/uri_P2500_c.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 uri_P2500_c/fast"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
->>>>>>> 1a7d393f670effc6ec0b32d6fdb74a00c4807ea4
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
@@ -432,14 +293,7 @@
 		<Unit filename="D:/Projects/CLionProjects/onlinejudge_c_cpp/URI/P1569_Snakes_and_Ladders.c">
 			<Option target="uri_p1569_c"/>
 		</Unit>
-<<<<<<< HEAD
 		<Unit filename="D:/Projects/CLionProjects/onlinejudge_c_cpp/URI/P1883_Escape_From_Ayutthaya.c">
-=======
-		<Unit filename="H:/CLionProjects/onlinejudge_c_cpp/URI/P1883.cpp">
-			<Option target="p1883"/>
-		</Unit>
-		<Unit filename="H:/CLionProjects/onlinejudge_c_cpp/URI/P1883_Escape_From_Ayutthaya.c">
->>>>>>> 1a7d393f670effc6ec0b32d6fdb74a00c4807ea4
 			<Option target="uri_p1883_c"/>
 		</Unit>
 		<Unit filename="D:/Projects/CLionProjects/onlinejudge_c_cpp/URI/P1883_Escape_From_Ayutthaya.cpp">
@@ -451,14 +305,10 @@
 		<Unit filename="D:/Projects/CLionProjects/onlinejudge_c_cpp/URI/P2692_Zoeiro_Keyboard.c">
 			<Option target="uri_P2692_c"/>
 		</Unit>
-<<<<<<< HEAD
-		<Unit filename="D:/Projects/CLionProjects/onlinejudge_c_cpp/CMakeLists.txt">
-=======
-		<Unit filename="H:/CLionProjects/onlinejudge_c_cpp/URI/test.cpp">
+		<Unit filename="D:/Projects/CLionProjects/onlinejudge_c_cpp/URI/test.cpp">
 			<Option target="testFile"/>
 		</Unit>
-		<Unit filename="H:/CLionProjects/onlinejudge_c_cpp/CMakeLists.txt">
->>>>>>> 1a7d393f670effc6ec0b32d6fdb74a00c4807ea4
+		<Unit filename="D:/Projects/CLionProjects/onlinejudge_c_cpp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
