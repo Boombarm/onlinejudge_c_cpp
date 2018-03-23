@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 
 using namespace std;
 const int MX = 1005;
@@ -20,9 +20,16 @@ struct point {
 int fy[] = {-1, 1, 0, 0};
 int fx[] = {0, 0, -1, 1};
 
-void BFS_fire(point &firePoint) {
+void BFS_fire(vector<point> &firePoint) {
     queue<point> Q;
-    Q.push(firePoint);
+    for (int i = 0; i < firePoint.size(); i++) {
+        Q.push(firePoint[i]);
+        int x = firePoint[i].x;
+        int y = firePoint[i].y;
+        fire[y][x] = 1;
+    }
+
+
     while (!Q.empty()) {
         point tm = Q.front();
         Q.pop();
@@ -66,7 +73,6 @@ bool BFS(point &s, point &e) {
                 && tx >= 0 && ty < m
                 && t < fire[ty][tx]
                 && board[ty][tx] == 0) {
-//                cout << "add" << endl;
                 Q.push(point(ty, tx, t));
             }
         }
@@ -79,34 +85,29 @@ int main() {
     cin >> t;
     while (t--) {
         cin >> n >> m;
-        point startPoint, endPoint, firePoint;
+        vector<point> firePoint;
+        point startPoint, endPoint;
+        char c;
         for (int y = 0; y < n; y++) {
             for (int x = 0; x < m; x++) {
-                cin >> board[y][x];
+                cin >> c;
                 fire[y][x] = 0;
-                switch (board[y][x]) {
+                board[y][x] = 0;
+                switch (c) {
                     case '#':
                         board[y][x] = WALL;
                         break;
                     case 'F':
-                        firePoint.y = y;
-                        firePoint.x = x;
-                        firePoint.t = 1;
-                        board[y][x] = 0;
+                        firePoint.push_back(point(y, x, 1));
                         break;
                     case 'S':
                         startPoint.x = x;
                         startPoint.y = y;
                         startPoint.t = 1;
-                        board[y][x] = 0;
                         break;
                     case 'E':
                         endPoint.x = x;
                         endPoint.y = y;
-                        board[y][x] = 0;
-                        break;
-                    default:
-                        board[y][x] = 0;
                         break;
                 }
             }
@@ -120,7 +121,8 @@ int main() {
 //        }
 //        cout << endl;
 
-        cout << (BFS(startPoint, endPoint) ? "Y" : "N") << endl;
+        cout << (BFS(startPoint, endPoint) ? "Y\n" : "N\n");
     }
+    cout << flush;
     return 0;
 }

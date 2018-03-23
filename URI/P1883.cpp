@@ -1,9 +1,7 @@
-//
-// Created by Teerapat-BSD on 3/23/2018.
-//
-
-#include<bits/stdc++.h>
+#include <iostream>
+#include <queue>
 using namespace std;
+
 const int MX = 1005;
 const int inf = 10000000;
 
@@ -93,12 +91,6 @@ int main() {
             }
         }
         BFS_fire(ff);
-        /*
-           for(int i = 0; i < n; i++) {
-           for(int j = 0; j < m; j++) cout << v[i][j] << " ";
-           cout << endl;
-           }
-           */
         cout << (BFS(st, en) ? "Y" : "N") << endl;
     }
     return 0;
