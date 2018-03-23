@@ -110,19 +110,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named uri_p1883_cpp
-
-# Build rule for target.
-uri_p1883_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 uri_p1883_cpp
-.PHONY : uri_p1883_cpp
-
-# fast build rule for target.
-uri_p1883_cpp/fast:
-	$(MAKE) -f CMakeFiles\uri_p1883_cpp.dir\build.make CMakeFiles/uri_p1883_cpp.dir/build
-.PHONY : uri_p1883_cpp/fast
-
-#=============================================================================
 # Target rules for targets named uri_p1883_c
 
 # Build rule for target.
@@ -134,6 +121,19 @@ uri_p1883_c: cmake_check_build_system
 uri_p1883_c/fast:
 	$(MAKE) -f CMakeFiles\uri_p1883_c.dir\build.make CMakeFiles/uri_p1883_c.dir/build
 .PHONY : uri_p1883_c/fast
+
+#=============================================================================
+# Target rules for targets named uri_p1883_cpp
+
+# Build rule for target.
+uri_p1883_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 uri_p1883_cpp
+.PHONY : uri_p1883_cpp
+
+# fast build rule for target.
+uri_p1883_cpp/fast:
+	$(MAKE) -f CMakeFiles\uri_p1883_cpp.dir\build.make CMakeFiles/uri_p1883_cpp.dir/build
+.PHONY : uri_p1883_cpp/fast
 
 #=============================================================================
 # Target rules for targets named uri_p1569_c
@@ -162,6 +162,19 @@ uri_P2500_c/fast:
 .PHONY : uri_P2500_c/fast
 
 #=============================================================================
+# Target rules for targets named p1883
+
+# Build rule for target.
+p1883: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 p1883
+.PHONY : p1883
+
+# fast build rule for target.
+p1883/fast:
+	$(MAKE) -f CMakeFiles\p1883.dir\build.make CMakeFiles/p1883.dir/build
+.PHONY : p1883/fast
+
+#=============================================================================
 # Target rules for targets named uri_P2692_c
 
 # Build rule for target.
@@ -173,6 +186,19 @@ uri_P2692_c: cmake_check_build_system
 uri_P2692_c/fast:
 	$(MAKE) -f CMakeFiles\uri_P2692_c.dir\build.make CMakeFiles/uri_P2692_c.dir/build
 .PHONY : uri_P2692_c/fast
+
+#=============================================================================
+# Target rules for targets named testFile
+
+# Build rule for target.
+testFile: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 testFile
+.PHONY : testFile
+
+# fast build rule for target.
+testFile/fast:
+	$(MAKE) -f CMakeFiles\testFile.dir\build.make CMakeFiles/testFile.dir/build
+.PHONY : testFile/fast
 
 URI/P1569_Snakes_and_Ladders.obj: URI/P1569_Snakes_and_Ladders.c.obj
 
@@ -200,6 +226,33 @@ URI/P1569_Snakes_and_Ladders.s: URI/P1569_Snakes_and_Ladders.c.s
 URI/P1569_Snakes_and_Ladders.c.s:
 	$(MAKE) -f CMakeFiles\uri_p1569_c.dir\build.make CMakeFiles/uri_p1569_c.dir/URI/P1569_Snakes_and_Ladders.c.s
 .PHONY : URI/P1569_Snakes_and_Ladders.c.s
+
+URI/P1883.obj: URI/P1883.cpp.obj
+
+.PHONY : URI/P1883.obj
+
+# target to build an object file
+URI/P1883.cpp.obj:
+	$(MAKE) -f CMakeFiles\p1883.dir\build.make CMakeFiles/p1883.dir/URI/P1883.cpp.obj
+.PHONY : URI/P1883.cpp.obj
+
+URI/P1883.i: URI/P1883.cpp.i
+
+.PHONY : URI/P1883.i
+
+# target to preprocess a source file
+URI/P1883.cpp.i:
+	$(MAKE) -f CMakeFiles\p1883.dir\build.make CMakeFiles/p1883.dir/URI/P1883.cpp.i
+.PHONY : URI/P1883.cpp.i
+
+URI/P1883.s: URI/P1883.cpp.s
+
+.PHONY : URI/P1883.s
+
+# target to generate assembly for a file
+URI/P1883.cpp.s:
+	$(MAKE) -f CMakeFiles\p1883.dir\build.make CMakeFiles/p1883.dir/URI/P1883.cpp.s
+.PHONY : URI/P1883.cpp.s
 
 URI/P1883_Escape_From_Ayutthaya.obj: URI/P1883_Escape_From_Ayutthaya.c.obj
 
@@ -309,6 +362,33 @@ URI/P2692_Zoeiro_Keyboard.c.s:
 	$(MAKE) -f CMakeFiles\uri_P2692_c.dir\build.make CMakeFiles/uri_P2692_c.dir/URI/P2692_Zoeiro_Keyboard.c.s
 .PHONY : URI/P2692_Zoeiro_Keyboard.c.s
 
+URI/test.obj: URI/test.cpp.obj
+
+.PHONY : URI/test.obj
+
+# target to build an object file
+URI/test.cpp.obj:
+	$(MAKE) -f CMakeFiles\testFile.dir\build.make CMakeFiles/testFile.dir/URI/test.cpp.obj
+.PHONY : URI/test.cpp.obj
+
+URI/test.i: URI/test.cpp.i
+
+.PHONY : URI/test.i
+
+# target to preprocess a source file
+URI/test.cpp.i:
+	$(MAKE) -f CMakeFiles\testFile.dir\build.make CMakeFiles/testFile.dir/URI/test.cpp.i
+.PHONY : URI/test.cpp.i
+
+URI/test.s: URI/test.cpp.s
+
+.PHONY : URI/test.s
+
+# target to generate assembly for a file
+URI/test.cpp.s:
+	$(MAKE) -f CMakeFiles\testFile.dir\build.make CMakeFiles/testFile.dir/URI/test.cpp.s
+.PHONY : URI/test.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -316,15 +396,20 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... edit_cache
-	@echo ... uri_p1883_cpp
 	@echo ... uri_p1883_c
+	@echo ... uri_p1883_cpp
 	@echo ... uri_p1569_c
 	@echo ... uri_P2500_c
+	@echo ... p1883
 	@echo ... uri_P2692_c
+	@echo ... testFile
 	@echo ... rebuild_cache
 	@echo ... URI/P1569_Snakes_and_Ladders.obj
 	@echo ... URI/P1569_Snakes_and_Ladders.i
 	@echo ... URI/P1569_Snakes_and_Ladders.s
+	@echo ... URI/P1883.obj
+	@echo ... URI/P1883.i
+	@echo ... URI/P1883.s
 	@echo ... URI/P1883_Escape_From_Ayutthaya.obj
 	@echo ... URI/P1883_Escape_From_Ayutthaya.i
 	@echo ... URI/P1883_Escape_From_Ayutthaya.s
@@ -337,6 +422,9 @@ help:
 	@echo ... URI/P2692_Zoeiro_Keyboard.obj
 	@echo ... URI/P2692_Zoeiro_Keyboard.i
 	@echo ... URI/P2692_Zoeiro_Keyboard.s
+	@echo ... URI/test.obj
+	@echo ... URI/test.i
+	@echo ... URI/test.s
 .PHONY : help
 
 

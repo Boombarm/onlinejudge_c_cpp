@@ -1,7 +1,9 @@
 H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
-H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/uri_p1883_cpp.dir
 H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/uri_p1883_c.dir
+H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/uri_p1883_cpp.dir
 H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/uri_p1569_c.dir
 H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/uri_P2500_c.dir
+H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/p1883.dir
 H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/uri_P2692_c.dir
+H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/testFile.dir
 H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
