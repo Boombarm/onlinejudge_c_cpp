@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/uri_p1569_c.dir/URI/P1569_Snakes_and_Ladders.c.obj"
+  "CMakeFiles/uri_p1569_c.dir/URI/Accepted_C/P1569_Snakes_and_Ladders.c.obj"
   "uri_p1569_c.pdb"
   "uri_p1569_c.exe"
   "uri_p1569_c.exe.manifest"

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/uri_P2692_c.dir/URI/P2692_Zoeiro_Keyboard.c.obj"
+  "CMakeFiles/uri_P2692_c.dir/URI/Accepted_C/P2692_Zoeiro_Keyboard.c.obj"
   "uri_P2692_c.pdb"
   "uri_P2692_c.exe"
   "uri_P2692_c.exe.manifest"

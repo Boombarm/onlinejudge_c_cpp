@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/Projects/CLionProjects/onlinejudge_c_cpp/URI/P2500_William_Xorando.c" "D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/uri_P2500_c.dir/URI/P2500_William_Xorando.c.obj"
+  "H:/CLionProjects/onlinejudge_c_cpp/URI/Trying_C/P2500_William_Xorando.c" "H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/uri_P2500_c.dir/URI/Trying_C/P2500_William_Xorando.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

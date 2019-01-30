@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/uri_p1912_cpp.dir/URI/P1912_Help_Seu_Madruga.cpp.obj"
+  "CMakeFiles/uri_p1912_cpp.dir/URI/Accepted_CPP/P1912_Help_Seu_Madruga.cpp.obj"
   "uri_p1912_cpp.pdb"
   "uri_p1912_cpp.exe"
   "uri_p1912_cpp.exe.manifest"

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/uri_p1883_cpp.dir/URI/P1883_Escape_From_Ayutthaya.cpp.obj"
+  "CMakeFiles/uri_p1883_cpp.dir/URI/Accepted_CPP/P1883_Escape_From_Ayutthaya.cpp.obj"
   "uri_p1883_cpp.pdb"
   "uri_p1883_cpp.exe"
   "uri_p1883_cpp.exe.manifest"

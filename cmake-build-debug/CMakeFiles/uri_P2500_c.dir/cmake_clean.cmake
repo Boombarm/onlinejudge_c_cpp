@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/uri_P2500_c.dir/URI/P2500_William_Xorando.c.obj"
+  "CMakeFiles/uri_P2500_c.dir/URI/Trying_C/P2500_William_Xorando.c.obj"
   "uri_P2500_c.pdb"
   "uri_P2500_c.exe"
   "uri_P2500_c.exe.manifest"
