@@ -200,6 +200,19 @@ uri_P2500_c/fast:
 	$(MAKE) -f CMakeFiles\uri_P2500_c.dir\build.make CMakeFiles/uri_P2500_c.dir/build
 .PHONY : uri_P2500_c/fast
 
+#=============================================================================
+# Target rules for targets named uri_P1764_cpp
+
+# Build rule for target.
+uri_P1764_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 uri_P1764_cpp
+.PHONY : uri_P1764_cpp
+
+# fast build rule for target.
+uri_P1764_cpp/fast:
+	$(MAKE) -f CMakeFiles\uri_P1764_cpp.dir\build.make CMakeFiles/uri_P1764_cpp.dir/build
+.PHONY : uri_P1764_cpp/fast
+
 URI/Accepted_C/P1569_Snakes_and_Ladders.obj: URI/Accepted_C/P1569_Snakes_and_Ladders.c.obj
 
 .PHONY : URI/Accepted_C/P1569_Snakes_and_Ladders.obj
@@ -389,6 +402,33 @@ URI/Trying_C/P2500_William_Xorando.c.s:
 	$(MAKE) -f CMakeFiles\uri_P2500_c.dir\build.make CMakeFiles/uri_P2500_c.dir/URI/Trying_C/P2500_William_Xorando.c.s
 .PHONY : URI/Trying_C/P2500_William_Xorando.c.s
 
+URI/Trying_CPP/P1764_Itinerary_of_Santa_Claus.obj: URI/Trying_CPP/P1764_Itinerary_of_Santa_Claus.cpp.obj
+
+.PHONY : URI/Trying_CPP/P1764_Itinerary_of_Santa_Claus.obj
+
+# target to build an object file
+URI/Trying_CPP/P1764_Itinerary_of_Santa_Claus.cpp.obj:
+	$(MAKE) -f CMakeFiles\uri_P1764_cpp.dir\build.make CMakeFiles/uri_P1764_cpp.dir/URI/Trying_CPP/P1764_Itinerary_of_Santa_Claus.cpp.obj
+.PHONY : URI/Trying_CPP/P1764_Itinerary_of_Santa_Claus.cpp.obj
+
+URI/Trying_CPP/P1764_Itinerary_of_Santa_Claus.i: URI/Trying_CPP/P1764_Itinerary_of_Santa_Claus.cpp.i
+
+.PHONY : URI/Trying_CPP/P1764_Itinerary_of_Santa_Claus.i
+
+# target to preprocess a source file
+URI/Trying_CPP/P1764_Itinerary_of_Santa_Claus.cpp.i:
+	$(MAKE) -f CMakeFiles\uri_P1764_cpp.dir\build.make CMakeFiles/uri_P1764_cpp.dir/URI/Trying_CPP/P1764_Itinerary_of_Santa_Claus.cpp.i
+.PHONY : URI/Trying_CPP/P1764_Itinerary_of_Santa_Claus.cpp.i
+
+URI/Trying_CPP/P1764_Itinerary_of_Santa_Claus.s: URI/Trying_CPP/P1764_Itinerary_of_Santa_Claus.cpp.s
+
+.PHONY : URI/Trying_CPP/P1764_Itinerary_of_Santa_Claus.s
+
+# target to generate assembly for a file
+URI/Trying_CPP/P1764_Itinerary_of_Santa_Claus.cpp.s:
+	$(MAKE) -f CMakeFiles\uri_P1764_cpp.dir\build.make CMakeFiles/uri_P1764_cpp.dir/URI/Trying_CPP/P1764_Itinerary_of_Santa_Claus.cpp.s
+.PHONY : URI/Trying_CPP/P1764_Itinerary_of_Santa_Claus.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -401,9 +441,10 @@ help:
 	@echo ... edit_cache
 	@echo ... uri_p1883_cpp
 	@echo ... uri_p1883_c
-	@echo ... rebuild_cache
 	@echo ... uri_p1912_cpp
 	@echo ... uri_P2500_c
+	@echo ... uri_P1764_cpp
+	@echo ... rebuild_cache
 	@echo ... URI/Accepted_C/P1569_Snakes_and_Ladders.obj
 	@echo ... URI/Accepted_C/P1569_Snakes_and_Ladders.i
 	@echo ... URI/Accepted_C/P1569_Snakes_and_Ladders.s
@@ -425,6 +466,9 @@ help:
 	@echo ... URI/Trying_C/P2500_William_Xorando.obj
 	@echo ... URI/Trying_C/P2500_William_Xorando.i
 	@echo ... URI/Trying_C/P2500_William_Xorando.s
+	@echo ... URI/Trying_CPP/P1764_Itinerary_of_Santa_Claus.obj
+	@echo ... URI/Trying_CPP/P1764_Itinerary_of_Santa_Claus.i
+	@echo ... URI/Trying_CPP/P1764_Itinerary_of_Santa_Claus.s
 .PHONY : help
 
 

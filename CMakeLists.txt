@@ -17,3 +17,4 @@ add_executable (uri_p1883_c "uri/trying_c/P1883_Escape_From_Ayutthaya.c")
 
 
 #trying CPP
+add_executable (uri_P1764_cpp "uri/trying_cpp/P1764_Itinerary_of_Santa_Claus.cpp")

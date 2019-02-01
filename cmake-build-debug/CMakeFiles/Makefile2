@@ -65,7 +65,7 @@ CMAKE_BINARY_DIR = H:\CLionProjects\onlinejudge_c_cpp\cmake-build-debug
 CMakeFiles/uri_P2692_c.dir/all:
 	$(MAKE) -f CMakeFiles\uri_P2692_c.dir\build.make CMakeFiles/uri_P2692_c.dir/depend
 	$(MAKE) -f CMakeFiles\uri_P2692_c.dir\build.make CMakeFiles/uri_P2692_c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=H:\CLionProjects\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target uri_P2692_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=H:\CLionProjects\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target uri_P2692_c"
 .PHONY : CMakeFiles/uri_P2692_c.dir/all
 
 # Include target in all.
@@ -102,7 +102,7 @@ clean: CMakeFiles/uri_P2692_c.dir/clean
 CMakeFiles/uri_P1907_cpp.dir/all:
 	$(MAKE) -f CMakeFiles\uri_P1907_cpp.dir\build.make CMakeFiles/uri_P1907_cpp.dir/depend
 	$(MAKE) -f CMakeFiles\uri_P1907_cpp.dir\build.make CMakeFiles/uri_P1907_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=H:\CLionProjects\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target uri_P1907_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=H:\CLionProjects\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target uri_P1907_cpp"
 .PHONY : CMakeFiles/uri_P1907_cpp.dir/all
 
 # Include target in all.
@@ -139,7 +139,7 @@ clean: CMakeFiles/uri_P1907_cpp.dir/clean
 CMakeFiles/uri_p1569_c.dir/all:
 	$(MAKE) -f CMakeFiles\uri_p1569_c.dir\build.make CMakeFiles/uri_p1569_c.dir/depend
 	$(MAKE) -f CMakeFiles\uri_p1569_c.dir\build.make CMakeFiles/uri_p1569_c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=H:\CLionProjects\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target uri_p1569_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=H:\CLionProjects\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target uri_p1569_c"
 .PHONY : CMakeFiles/uri_p1569_c.dir/all
 
 # Include target in all.
@@ -176,7 +176,7 @@ clean: CMakeFiles/uri_p1569_c.dir/clean
 CMakeFiles/uri_p1883_cpp.dir/all:
 	$(MAKE) -f CMakeFiles\uri_p1883_cpp.dir\build.make CMakeFiles/uri_p1883_cpp.dir/depend
 	$(MAKE) -f CMakeFiles\uri_p1883_cpp.dir\build.make CMakeFiles/uri_p1883_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=H:\CLionProjects\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target uri_p1883_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=H:\CLionProjects\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target uri_p1883_cpp"
 .PHONY : CMakeFiles/uri_p1883_cpp.dir/all
 
 # Include target in all.
@@ -213,7 +213,7 @@ clean: CMakeFiles/uri_p1883_cpp.dir/clean
 CMakeFiles/uri_p1883_c.dir/all:
 	$(MAKE) -f CMakeFiles\uri_p1883_c.dir\build.make CMakeFiles/uri_p1883_c.dir/depend
 	$(MAKE) -f CMakeFiles\uri_p1883_c.dir\build.make CMakeFiles/uri_p1883_c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=H:\CLionProjects\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target uri_p1883_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=H:\CLionProjects\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target uri_p1883_c"
 .PHONY : CMakeFiles/uri_p1883_c.dir/all
 
 # Include target in all.
@@ -250,7 +250,7 @@ clean: CMakeFiles/uri_p1883_c.dir/clean
 CMakeFiles/uri_p1912_cpp.dir/all:
 	$(MAKE) -f CMakeFiles\uri_p1912_cpp.dir\build.make CMakeFiles/uri_p1912_cpp.dir/depend
 	$(MAKE) -f CMakeFiles\uri_p1912_cpp.dir\build.make CMakeFiles/uri_p1912_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=H:\CLionProjects\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target uri_p1912_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=H:\CLionProjects\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target uri_p1912_cpp"
 .PHONY : CMakeFiles/uri_p1912_cpp.dir/all
 
 # Include target in all.
@@ -287,7 +287,7 @@ clean: CMakeFiles/uri_p1912_cpp.dir/clean
 CMakeFiles/uri_P2500_c.dir/all:
 	$(MAKE) -f CMakeFiles\uri_P2500_c.dir\build.make CMakeFiles/uri_P2500_c.dir/depend
 	$(MAKE) -f CMakeFiles\uri_P2500_c.dir\build.make CMakeFiles/uri_P2500_c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=H:\CLionProjects\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target uri_P2500_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=H:\CLionProjects\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target uri_P2500_c"
 .PHONY : CMakeFiles/uri_P2500_c.dir/all
 
 # Include target in all.
@@ -314,6 +314,43 @@ CMakeFiles/uri_P2500_c.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/uri_P2500_c.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/uri_P1764_cpp.dir
+
+# All Build rule for target.
+CMakeFiles/uri_P1764_cpp.dir/all:
+	$(MAKE) -f CMakeFiles\uri_P1764_cpp.dir\build.make CMakeFiles/uri_P1764_cpp.dir/depend
+	$(MAKE) -f CMakeFiles\uri_P1764_cpp.dir\build.make CMakeFiles/uri_P1764_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=H:\CLionProjects\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target uri_P1764_cpp"
+.PHONY : CMakeFiles/uri_P1764_cpp.dir/all
+
+# Include target in all.
+all: CMakeFiles/uri_P1764_cpp.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/uri_P1764_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\CLionProjects\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/uri_P1764_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\CLionProjects\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/uri_P1764_cpp.dir/rule
+
+# Convenience name for target.
+uri_P1764_cpp: CMakeFiles/uri_P1764_cpp.dir/rule
+
+.PHONY : uri_P1764_cpp
+
+# clean rule for target.
+CMakeFiles/uri_P1764_cpp.dir/clean:
+	$(MAKE) -f CMakeFiles\uri_P1764_cpp.dir\build.make CMakeFiles/uri_P1764_cpp.dir/clean
+.PHONY : CMakeFiles/uri_P1764_cpp.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/uri_P1764_cpp.dir/clean
 
 .PHONY : clean
 
