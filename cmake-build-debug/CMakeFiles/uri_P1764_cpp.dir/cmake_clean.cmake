@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/uri_P1764_cpp.dir/URI/Trying_CPP/P1764_Itinerary_of_Santa_Claus.cpp.obj"
+  "CMakeFiles/uri_P1764_cpp.dir/URI/Accepted_CPP/P1764_Itinerary_of_Santa_Claus.cpp.obj"
   "uri_P1764_cpp.pdb"
   "uri_P1764_cpp.exe"
   "uri_P1764_cpp.exe.manifest"

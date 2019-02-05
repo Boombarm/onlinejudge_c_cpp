@@ -9,6 +9,7 @@ add_executable (uri_p1569_c "uri/accepted_c/P1569_Snakes_and_Ladders.c")
 add_executable (uri_p1883_cpp "URI/accepted_cpp/P1883_Escape_From_Ayutthaya.cpp")
 add_executable (uri_p1912_cpp "URI/accepted_cpp/P1912_Help_Seu_Madruga.cpp")
 add_executable (uri_P1907_cpp "URI/accepted_cpp/P1907_Colouring_Game_Scenarios.cpp")
+add_executable (uri_P1764_cpp "uri/accepted_cpp/P1764_Itinerary_of_Santa_Claus.cpp")
 
 
 #trying C
@@ -17,4 +18,4 @@ add_executable (uri_p1883_c "uri/trying_c/P1883_Escape_From_Ayutthaya.c")
 
 
 #trying CPP
-add_executable (uri_P1764_cpp "uri/trying_cpp/P1764_Itinerary_of_Santa_Claus.cpp")
+add_executable (uri_P1774_cpp "URI/Trying_CPP/P1764_Routers.cpp")
