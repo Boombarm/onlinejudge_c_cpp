@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "D:/Projects/CLionProjects/onlinejudge_c_cpp/URI/Accepted_CPP/P2758_Floating_Number_Input_and_Output.cpp" "D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/uri_P1774_cpp.dir/URI/Accepted_CPP/P2758_Floating_Number_Input_and_Output.cpp.obj"
   "D:/Projects/CLionProjects/onlinejudge_c_cpp/URI/Trying_CPP/P1764_Routers.cpp" "D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/uri_P1774_cpp.dir/URI/Trying_CPP/P1764_Routers.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
