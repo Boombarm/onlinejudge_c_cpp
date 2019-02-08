@@ -16,6 +16,4 @@ add_executable (uri_P2758_cpp "URI/Accepted_CPP/P2758_Floating_Number_Input_and_
 add_executable (uri_P2500_c "uri/trying_c/P2500_William_Xorando.c")
 add_executable (uri_p1883_c "uri/trying_c/P1883_Escape_From_Ayutthaya.c")
 
-
 #trying CPP
-add_executable (uri_P1774_cpp "URI/Trying_CPP/P1764_Routers.cpp" URI/Accepted_CPP/P2758_Floating_Number_Input_and_Output.cpp)

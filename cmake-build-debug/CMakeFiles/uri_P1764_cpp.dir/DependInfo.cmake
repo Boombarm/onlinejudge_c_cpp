@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Projects/CLionProjects/onlinejudge_c_cpp/URI/Accepted_CPP/P1764_Itinerary_of_Santa_Claus.cpp" "D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/uri_P1764_cpp.dir/URI/Accepted_CPP/P1764_Itinerary_of_Santa_Claus.cpp.obj"
+  "H:/CLionProjects/onlinejudge_c_cpp/URI/Accepted_CPP/P1764_Itinerary_of_Santa_Claus.cpp" "H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/uri_P1764_cpp.dir/URI/Accepted_CPP/P1764_Itinerary_of_Santa_Claus.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

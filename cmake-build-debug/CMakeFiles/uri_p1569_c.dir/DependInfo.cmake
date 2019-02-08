@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/Projects/CLionProjects/onlinejudge_c_cpp/URI/Accepted_C/P1569_Snakes_and_Ladders.c" "D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/uri_p1569_c.dir/URI/Accepted_C/P1569_Snakes_and_Ladders.c.obj"
+  "H:/CLionProjects/onlinejudge_c_cpp/URI/Accepted_C/P1569_Snakes_and_Ladders.c" "H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/uri_p1569_c.dir/URI/Accepted_C/P1569_Snakes_and_Ladders.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/Projects/CLionProjects/onlinejudge_c_cpp/URI/Accepted_C/P2692_Zoeiro_Keyboard.c" "D:/Projects/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/uri_P2692_c.dir/URI/Accepted_C/P2692_Zoeiro_Keyboard.c.obj"
+  "H:/CLionProjects/onlinejudge_c_cpp/URI/Accepted_C/P2692_Zoeiro_Keyboard.c" "H:/CLionProjects/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/uri_P2692_c.dir/URI/Accepted_C/P2692_Zoeiro_Keyboard.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
