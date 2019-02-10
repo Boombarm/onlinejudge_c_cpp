@@ -1,3 +1,18 @@
+/**
+ * @author Teerapat Phokhonwong
+ * @Onlinejudge: URI Online Judge
+ * @Categories: PARADIGMS
+ * @Problem: 2720 - Large Presents
+ * @Link: https://www.urionlinejudge.com.br/judge/en/problems/view/1912
+ * @Timelimit: 4 sec
+ * @Language: C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s]
+ * @Status: Accepted
+ * @Submission: 2/11/19, 1:04:42 AM
+ * @Runtime: 0.972s
+ * @Solution:
+ * @Note:
+ */
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
