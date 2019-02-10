@@ -149,19 +149,6 @@ uri_p1569_c/fast:
 .PHONY : uri_p1569_c/fast
 
 #=============================================================================
-# Target rules for targets named uri_p1883_cpp
-
-# Build rule for target.
-uri_p1883_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 uri_p1883_cpp
-.PHONY : uri_p1883_cpp
-
-# fast build rule for target.
-uri_p1883_cpp/fast:
-	$(MAKE) -f CMakeFiles\uri_p1883_cpp.dir\build.make CMakeFiles/uri_p1883_cpp.dir/build
-.PHONY : uri_p1883_cpp/fast
-
-#=============================================================================
 # Target rules for targets named uri_p1883_c
 
 # Build rule for target.
@@ -173,6 +160,19 @@ uri_p1883_c: cmake_check_build_system
 uri_p1883_c/fast:
 	$(MAKE) -f CMakeFiles\uri_p1883_c.dir\build.make CMakeFiles/uri_p1883_c.dir/build
 .PHONY : uri_p1883_c/fast
+
+#=============================================================================
+# Target rules for targets named uri_p1883_cpp
+
+# Build rule for target.
+uri_p1883_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 uri_p1883_cpp
+.PHONY : uri_p1883_cpp
+
+# fast build rule for target.
+uri_p1883_cpp/fast:
+	$(MAKE) -f CMakeFiles\uri_p1883_cpp.dir\build.make CMakeFiles/uri_p1883_cpp.dir/build
+.PHONY : uri_p1883_cpp/fast
 
 #=============================================================================
 # Target rules for targets named uri_p1912_cpp
@@ -214,6 +214,19 @@ uri_P1764_cpp/fast:
 .PHONY : uri_P1764_cpp/fast
 
 #=============================================================================
+# Target rules for targets named uri_P2720_cpp
+
+# Build rule for target.
+uri_P2720_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 uri_P2720_cpp
+.PHONY : uri_P2720_cpp
+
+# fast build rule for target.
+uri_P2720_cpp/fast:
+	$(MAKE) -f CMakeFiles\uri_P2720_cpp.dir\build.make CMakeFiles/uri_P2720_cpp.dir/build
+.PHONY : uri_P2720_cpp/fast
+
+#=============================================================================
 # Target rules for targets named uri_P2500_c
 
 # Build rule for target.
@@ -225,19 +238,6 @@ uri_P2500_c: cmake_check_build_system
 uri_P2500_c/fast:
 	$(MAKE) -f CMakeFiles\uri_P2500_c.dir\build.make CMakeFiles/uri_P2500_c.dir/build
 .PHONY : uri_P2500_c/fast
-
-#=============================================================================
-# Target rules for targets named uri_P1774_cpp
-
-# Build rule for target.
-uri_P1774_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 uri_P1774_cpp
-.PHONY : uri_P1774_cpp
-
-# fast build rule for target.
-uri_P1774_cpp/fast:
-	$(MAKE) -f CMakeFiles\uri_P1774_cpp.dir\build.make CMakeFiles/uri_P1774_cpp.dir/build
-.PHONY : uri_P1774_cpp/fast
 
 URI/Accepted_C/P1569_Snakes_and_Ladders.obj: URI/Accepted_C/P1569_Snakes_and_Ladders.c.obj
 
@@ -401,6 +401,33 @@ URI/Accepted_CPP/P1912_Help_Seu_Madruga.cpp.s:
 	$(MAKE) -f CMakeFiles\uri_p1912_cpp.dir\build.make CMakeFiles/uri_p1912_cpp.dir/URI/Accepted_CPP/P1912_Help_Seu_Madruga.cpp.s
 .PHONY : URI/Accepted_CPP/P1912_Help_Seu_Madruga.cpp.s
 
+URI/Accepted_CPP/P2720_Large_Presents.obj: URI/Accepted_CPP/P2720_Large_Presents.cpp.obj
+
+.PHONY : URI/Accepted_CPP/P2720_Large_Presents.obj
+
+# target to build an object file
+URI/Accepted_CPP/P2720_Large_Presents.cpp.obj:
+	$(MAKE) -f CMakeFiles\uri_P2720_cpp.dir\build.make CMakeFiles/uri_P2720_cpp.dir/URI/Accepted_CPP/P2720_Large_Presents.cpp.obj
+.PHONY : URI/Accepted_CPP/P2720_Large_Presents.cpp.obj
+
+URI/Accepted_CPP/P2720_Large_Presents.i: URI/Accepted_CPP/P2720_Large_Presents.cpp.i
+
+.PHONY : URI/Accepted_CPP/P2720_Large_Presents.i
+
+# target to preprocess a source file
+URI/Accepted_CPP/P2720_Large_Presents.cpp.i:
+	$(MAKE) -f CMakeFiles\uri_P2720_cpp.dir\build.make CMakeFiles/uri_P2720_cpp.dir/URI/Accepted_CPP/P2720_Large_Presents.cpp.i
+.PHONY : URI/Accepted_CPP/P2720_Large_Presents.cpp.i
+
+URI/Accepted_CPP/P2720_Large_Presents.s: URI/Accepted_CPP/P2720_Large_Presents.cpp.s
+
+.PHONY : URI/Accepted_CPP/P2720_Large_Presents.s
+
+# target to generate assembly for a file
+URI/Accepted_CPP/P2720_Large_Presents.cpp.s:
+	$(MAKE) -f CMakeFiles\uri_P2720_cpp.dir\build.make CMakeFiles/uri_P2720_cpp.dir/URI/Accepted_CPP/P2720_Large_Presents.cpp.s
+.PHONY : URI/Accepted_CPP/P2720_Large_Presents.cpp.s
+
 URI/Accepted_CPP/P2758_Floating_Number_Input_and_Output.obj: URI/Accepted_CPP/P2758_Floating_Number_Input_and_Output.cpp.obj
 
 .PHONY : URI/Accepted_CPP/P2758_Floating_Number_Input_and_Output.obj
@@ -408,7 +435,6 @@ URI/Accepted_CPP/P2758_Floating_Number_Input_and_Output.obj: URI/Accepted_CPP/P2
 # target to build an object file
 URI/Accepted_CPP/P2758_Floating_Number_Input_and_Output.cpp.obj:
 	$(MAKE) -f CMakeFiles\uri_P2758_cpp.dir\build.make CMakeFiles/uri_P2758_cpp.dir/URI/Accepted_CPP/P2758_Floating_Number_Input_and_Output.cpp.obj
-	$(MAKE) -f CMakeFiles\uri_P1774_cpp.dir\build.make CMakeFiles/uri_P1774_cpp.dir/URI/Accepted_CPP/P2758_Floating_Number_Input_and_Output.cpp.obj
 .PHONY : URI/Accepted_CPP/P2758_Floating_Number_Input_and_Output.cpp.obj
 
 URI/Accepted_CPP/P2758_Floating_Number_Input_and_Output.i: URI/Accepted_CPP/P2758_Floating_Number_Input_and_Output.cpp.i
@@ -418,7 +444,6 @@ URI/Accepted_CPP/P2758_Floating_Number_Input_and_Output.i: URI/Accepted_CPP/P275
 # target to preprocess a source file
 URI/Accepted_CPP/P2758_Floating_Number_Input_and_Output.cpp.i:
 	$(MAKE) -f CMakeFiles\uri_P2758_cpp.dir\build.make CMakeFiles/uri_P2758_cpp.dir/URI/Accepted_CPP/P2758_Floating_Number_Input_and_Output.cpp.i
-	$(MAKE) -f CMakeFiles\uri_P1774_cpp.dir\build.make CMakeFiles/uri_P1774_cpp.dir/URI/Accepted_CPP/P2758_Floating_Number_Input_and_Output.cpp.i
 .PHONY : URI/Accepted_CPP/P2758_Floating_Number_Input_and_Output.cpp.i
 
 URI/Accepted_CPP/P2758_Floating_Number_Input_and_Output.s: URI/Accepted_CPP/P2758_Floating_Number_Input_and_Output.cpp.s
@@ -428,7 +453,6 @@ URI/Accepted_CPP/P2758_Floating_Number_Input_and_Output.s: URI/Accepted_CPP/P275
 # target to generate assembly for a file
 URI/Accepted_CPP/P2758_Floating_Number_Input_and_Output.cpp.s:
 	$(MAKE) -f CMakeFiles\uri_P2758_cpp.dir\build.make CMakeFiles/uri_P2758_cpp.dir/URI/Accepted_CPP/P2758_Floating_Number_Input_and_Output.cpp.s
-	$(MAKE) -f CMakeFiles\uri_P1774_cpp.dir\build.make CMakeFiles/uri_P1774_cpp.dir/URI/Accepted_CPP/P2758_Floating_Number_Input_and_Output.cpp.s
 .PHONY : URI/Accepted_CPP/P2758_Floating_Number_Input_and_Output.cpp.s
 
 URI/Trying_C/P1883_Escape_From_Ayutthaya.obj: URI/Trying_C/P1883_Escape_From_Ayutthaya.c.obj
@@ -485,33 +509,6 @@ URI/Trying_C/P2500_William_Xorando.c.s:
 	$(MAKE) -f CMakeFiles\uri_P2500_c.dir\build.make CMakeFiles/uri_P2500_c.dir/URI/Trying_C/P2500_William_Xorando.c.s
 .PHONY : URI/Trying_C/P2500_William_Xorando.c.s
 
-URI/Trying_CPP/P1764_Routers.obj: URI/Trying_CPP/P1764_Routers.cpp.obj
-
-.PHONY : URI/Trying_CPP/P1764_Routers.obj
-
-# target to build an object file
-URI/Trying_CPP/P1764_Routers.cpp.obj:
-	$(MAKE) -f CMakeFiles\uri_P1774_cpp.dir\build.make CMakeFiles/uri_P1774_cpp.dir/URI/Trying_CPP/P1764_Routers.cpp.obj
-.PHONY : URI/Trying_CPP/P1764_Routers.cpp.obj
-
-URI/Trying_CPP/P1764_Routers.i: URI/Trying_CPP/P1764_Routers.cpp.i
-
-.PHONY : URI/Trying_CPP/P1764_Routers.i
-
-# target to preprocess a source file
-URI/Trying_CPP/P1764_Routers.cpp.i:
-	$(MAKE) -f CMakeFiles\uri_P1774_cpp.dir\build.make CMakeFiles/uri_P1774_cpp.dir/URI/Trying_CPP/P1764_Routers.cpp.i
-.PHONY : URI/Trying_CPP/P1764_Routers.cpp.i
-
-URI/Trying_CPP/P1764_Routers.s: URI/Trying_CPP/P1764_Routers.cpp.s
-
-.PHONY : URI/Trying_CPP/P1764_Routers.s
-
-# target to generate assembly for a file
-URI/Trying_CPP/P1764_Routers.cpp.s:
-	$(MAKE) -f CMakeFiles\uri_P1774_cpp.dir\build.make CMakeFiles/uri_P1774_cpp.dir/URI/Trying_CPP/P1764_Routers.cpp.s
-.PHONY : URI/Trying_CPP/P1764_Routers.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -521,13 +518,13 @@ help:
 	@echo ... uri_P2692_c
 	@echo ... uri_P1907_cpp
 	@echo ... uri_p1569_c
-	@echo ... uri_p1883_cpp
 	@echo ... uri_p1883_c
+	@echo ... uri_p1883_cpp
 	@echo ... uri_p1912_cpp
 	@echo ... uri_P2758_cpp
 	@echo ... uri_P1764_cpp
+	@echo ... uri_P2720_cpp
 	@echo ... uri_P2500_c
-	@echo ... uri_P1774_cpp
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... URI/Accepted_C/P1569_Snakes_and_Ladders.obj
@@ -548,6 +545,9 @@ help:
 	@echo ... URI/Accepted_CPP/P1912_Help_Seu_Madruga.obj
 	@echo ... URI/Accepted_CPP/P1912_Help_Seu_Madruga.i
 	@echo ... URI/Accepted_CPP/P1912_Help_Seu_Madruga.s
+	@echo ... URI/Accepted_CPP/P2720_Large_Presents.obj
+	@echo ... URI/Accepted_CPP/P2720_Large_Presents.i
+	@echo ... URI/Accepted_CPP/P2720_Large_Presents.s
 	@echo ... URI/Accepted_CPP/P2758_Floating_Number_Input_and_Output.obj
 	@echo ... URI/Accepted_CPP/P2758_Floating_Number_Input_and_Output.i
 	@echo ... URI/Accepted_CPP/P2758_Floating_Number_Input_and_Output.s
@@ -557,9 +557,6 @@ help:
 	@echo ... URI/Trying_C/P2500_William_Xorando.obj
 	@echo ... URI/Trying_C/P2500_William_Xorando.i
 	@echo ... URI/Trying_C/P2500_William_Xorando.s
-	@echo ... URI/Trying_CPP/P1764_Routers.obj
-	@echo ... URI/Trying_CPP/P1764_Routers.i
-	@echo ... URI/Trying_CPP/P1764_Routers.s
 .PHONY : help
 
 
