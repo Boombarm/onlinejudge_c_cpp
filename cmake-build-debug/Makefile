@@ -188,6 +188,19 @@ uri_p1912_cpp/fast:
 .PHONY : uri_p1912_cpp/fast
 
 #=============================================================================
+# Target rules for targets named uri_p2916_cpp
+
+# Build rule for target.
+uri_p2916_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 uri_p2916_cpp
+.PHONY : uri_p2916_cpp
+
+# fast build rule for target.
+uri_p2916_cpp/fast:
+	$(MAKE) -f CMakeFiles\uri_p2916_cpp.dir\build.make CMakeFiles/uri_p2916_cpp.dir/build
+.PHONY : uri_p2916_cpp/fast
+
+#=============================================================================
 # Target rules for targets named uri_P2758_cpp
 
 # Build rule for target.
@@ -214,19 +227,6 @@ uri_P1764_cpp/fast:
 .PHONY : uri_P1764_cpp/fast
 
 #=============================================================================
-# Target rules for targets named uri_P2720_cpp
-
-# Build rule for target.
-uri_P2720_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 uri_P2720_cpp
-.PHONY : uri_P2720_cpp
-
-# fast build rule for target.
-uri_P2720_cpp/fast:
-	$(MAKE) -f CMakeFiles\uri_P2720_cpp.dir\build.make CMakeFiles/uri_P2720_cpp.dir/build
-.PHONY : uri_P2720_cpp/fast
-
-#=============================================================================
 # Target rules for targets named uri_P2500_c
 
 # Build rule for target.
@@ -238,6 +238,19 @@ uri_P2500_c: cmake_check_build_system
 uri_P2500_c/fast:
 	$(MAKE) -f CMakeFiles\uri_P2500_c.dir\build.make CMakeFiles/uri_P2500_c.dir/build
 .PHONY : uri_P2500_c/fast
+
+#=============================================================================
+# Target rules for targets named uri_P2720_cpp
+
+# Build rule for target.
+uri_P2720_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 uri_P2720_cpp
+.PHONY : uri_P2720_cpp
+
+# fast build rule for target.
+uri_P2720_cpp/fast:
+	$(MAKE) -f CMakeFiles\uri_P2720_cpp.dir\build.make CMakeFiles/uri_P2720_cpp.dir/build
+.PHONY : uri_P2720_cpp/fast
 
 URI/Accepted_C/P1569_Snakes_and_Ladders.obj: URI/Accepted_C/P1569_Snakes_and_Ladders.c.obj
 
@@ -455,6 +468,33 @@ URI/Accepted_CPP/P2758_Floating_Number_Input_and_Output.cpp.s:
 	$(MAKE) -f CMakeFiles\uri_P2758_cpp.dir\build.make CMakeFiles/uri_P2758_cpp.dir/URI/Accepted_CPP/P2758_Floating_Number_Input_and_Output.cpp.s
 .PHONY : URI/Accepted_CPP/P2758_Floating_Number_Input_and_Output.cpp.s
 
+URI/Accepted_CPP/P2916_The_Note.obj: URI/Accepted_CPP/P2916_The_Note.cpp.obj
+
+.PHONY : URI/Accepted_CPP/P2916_The_Note.obj
+
+# target to build an object file
+URI/Accepted_CPP/P2916_The_Note.cpp.obj:
+	$(MAKE) -f CMakeFiles\uri_p2916_cpp.dir\build.make CMakeFiles/uri_p2916_cpp.dir/URI/Accepted_CPP/P2916_The_Note.cpp.obj
+.PHONY : URI/Accepted_CPP/P2916_The_Note.cpp.obj
+
+URI/Accepted_CPP/P2916_The_Note.i: URI/Accepted_CPP/P2916_The_Note.cpp.i
+
+.PHONY : URI/Accepted_CPP/P2916_The_Note.i
+
+# target to preprocess a source file
+URI/Accepted_CPP/P2916_The_Note.cpp.i:
+	$(MAKE) -f CMakeFiles\uri_p2916_cpp.dir\build.make CMakeFiles/uri_p2916_cpp.dir/URI/Accepted_CPP/P2916_The_Note.cpp.i
+.PHONY : URI/Accepted_CPP/P2916_The_Note.cpp.i
+
+URI/Accepted_CPP/P2916_The_Note.s: URI/Accepted_CPP/P2916_The_Note.cpp.s
+
+.PHONY : URI/Accepted_CPP/P2916_The_Note.s
+
+# target to generate assembly for a file
+URI/Accepted_CPP/P2916_The_Note.cpp.s:
+	$(MAKE) -f CMakeFiles\uri_p2916_cpp.dir\build.make CMakeFiles/uri_p2916_cpp.dir/URI/Accepted_CPP/P2916_The_Note.cpp.s
+.PHONY : URI/Accepted_CPP/P2916_The_Note.cpp.s
+
 URI/Trying_C/P1883_Escape_From_Ayutthaya.obj: URI/Trying_C/P1883_Escape_From_Ayutthaya.c.obj
 
 .PHONY : URI/Trying_C/P1883_Escape_From_Ayutthaya.obj
@@ -521,10 +561,11 @@ help:
 	@echo ... uri_p1883_c
 	@echo ... uri_p1883_cpp
 	@echo ... uri_p1912_cpp
+	@echo ... uri_p2916_cpp
 	@echo ... uri_P2758_cpp
 	@echo ... uri_P1764_cpp
-	@echo ... uri_P2720_cpp
 	@echo ... uri_P2500_c
+	@echo ... uri_P2720_cpp
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... URI/Accepted_C/P1569_Snakes_and_Ladders.obj
@@ -551,6 +592,9 @@ help:
 	@echo ... URI/Accepted_CPP/P2758_Floating_Number_Input_and_Output.obj
 	@echo ... URI/Accepted_CPP/P2758_Floating_Number_Input_and_Output.i
 	@echo ... URI/Accepted_CPP/P2758_Floating_Number_Input_and_Output.s
+	@echo ... URI/Accepted_CPP/P2916_The_Note.obj
+	@echo ... URI/Accepted_CPP/P2916_The_Note.i
+	@echo ... URI/Accepted_CPP/P2916_The_Note.s
 	@echo ... URI/Trying_C/P1883_Escape_From_Ayutthaya.obj
 	@echo ... URI/Trying_C/P1883_Escape_From_Ayutthaya.i
 	@echo ... URI/Trying_C/P1883_Escape_From_Ayutthaya.s
