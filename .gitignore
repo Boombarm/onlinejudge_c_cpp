@@ -1,8 +1,0 @@
-*.xml
-.idea
-cmake-build-debug
-CMakeLists.txt
-Trying_C
-Trying_CPP
-cmake-build-debug-mingw
-.gitignore
