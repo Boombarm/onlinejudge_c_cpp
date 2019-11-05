@@ -1,0 +1,4 @@
+"D:\CLion 2018.2.7\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "E:\Projects\C Projects\onlinejudge_c_cpp"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/Projects/C Projects/onlinejudge_c_cpp/cmake-build-debug-mingw

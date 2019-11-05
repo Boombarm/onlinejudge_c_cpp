@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Projects/C Projects/onlinejudge_c_cpp/URI/Trying_CPP/P1002_Area_of_a_Circle.cpp
+iostream
+-
+math.h
+-
+iomanip
+-
+
