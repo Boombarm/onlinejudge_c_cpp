@@ -136,17 +136,17 @@ uri_p1002_c/fast:
 .PHONY : uri_p1002_c/fast
 
 #=============================================================================
-# Target rules for targets named uri_P1907_cpp
+# Target rules for targets named uri_p1006_c
 
 # Build rule for target.
-uri_P1907_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 uri_P1907_cpp
-.PHONY : uri_P1907_cpp
+uri_p1006_c: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 uri_p1006_c
+.PHONY : uri_p1006_c
 
 # fast build rule for target.
-uri_P1907_cpp/fast:
-	$(MAKE) -f CMakeFiles\uri_P1907_cpp.dir\build.make CMakeFiles/uri_P1907_cpp.dir/build
-.PHONY : uri_P1907_cpp/fast
+uri_p1006_c/fast:
+	$(MAKE) -f CMakeFiles\uri_p1006_c.dir\build.make CMakeFiles/uri_p1006_c.dir/build
+.PHONY : uri_p1006_c/fast
 
 #=============================================================================
 # Target rules for targets named uri_p1569_c
@@ -160,19 +160,6 @@ uri_p1569_c: cmake_check_build_system
 uri_p1569_c/fast:
 	$(MAKE) -f CMakeFiles\uri_p1569_c.dir\build.make CMakeFiles/uri_p1569_c.dir/build
 .PHONY : uri_p1569_c/fast
-
-#=============================================================================
-# Target rules for targets named uri_P1764_cpp
-
-# Build rule for target.
-uri_P1764_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 uri_P1764_cpp
-.PHONY : uri_P1764_cpp
-
-# fast build rule for target.
-uri_P1764_cpp/fast:
-	$(MAKE) -f CMakeFiles\uri_P1764_cpp.dir\build.make CMakeFiles/uri_P1764_cpp.dir/build
-.PHONY : uri_P1764_cpp/fast
 
 #=============================================================================
 # Target rules for targets named uri_P1001_c
@@ -199,6 +186,19 @@ uri_p1004_c: cmake_check_build_system
 uri_p1004_c/fast:
 	$(MAKE) -f CMakeFiles\uri_p1004_c.dir\build.make CMakeFiles/uri_p1004_c.dir/build
 .PHONY : uri_p1004_c/fast
+
+#=============================================================================
+# Target rules for targets named uri_p1005_c
+
+# Build rule for target.
+uri_p1005_c: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 uri_p1005_c
+.PHONY : uri_p1005_c
+
+# fast build rule for target.
+uri_p1005_c/fast:
+	$(MAKE) -f CMakeFiles\uri_p1005_c.dir\build.make CMakeFiles/uri_p1005_c.dir/build
+.PHONY : uri_p1005_c/fast
 
 #=============================================================================
 # Target rules for targets named uri_p1883_c
@@ -238,6 +238,32 @@ uri_p1912_cpp: cmake_check_build_system
 uri_p1912_cpp/fast:
 	$(MAKE) -f CMakeFiles\uri_p1912_cpp.dir\build.make CMakeFiles/uri_p1912_cpp.dir/build
 .PHONY : uri_p1912_cpp/fast
+
+#=============================================================================
+# Target rules for targets named uri_P1907_cpp
+
+# Build rule for target.
+uri_P1907_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 uri_P1907_cpp
+.PHONY : uri_P1907_cpp
+
+# fast build rule for target.
+uri_P1907_cpp/fast:
+	$(MAKE) -f CMakeFiles\uri_P1907_cpp.dir\build.make CMakeFiles/uri_P1907_cpp.dir/build
+.PHONY : uri_P1907_cpp/fast
+
+#=============================================================================
+# Target rules for targets named uri_P1764_cpp
+
+# Build rule for target.
+uri_P1764_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 uri_P1764_cpp
+.PHONY : uri_P1764_cpp
+
+# fast build rule for target.
+uri_P1764_cpp/fast:
+	$(MAKE) -f CMakeFiles\uri_P1764_cpp.dir\build.make CMakeFiles/uri_P1764_cpp.dir/build
+.PHONY : uri_P1764_cpp/fast
 
 #=============================================================================
 # Target rules for targets named uri_P2758_cpp
@@ -343,6 +369,84 @@ uri_P1003_cpp/fast:
 	$(MAKE) -f CMakeFiles\uri_P1003_cpp.dir\build.make CMakeFiles/uri_P1003_cpp.dir/build
 .PHONY : uri_P1003_cpp/fast
 
+#=============================================================================
+# Target rules for targets named uri_P1005_cpp
+
+# Build rule for target.
+uri_P1005_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 uri_P1005_cpp
+.PHONY : uri_P1005_cpp
+
+# fast build rule for target.
+uri_P1005_cpp/fast:
+	$(MAKE) -f CMakeFiles\uri_P1005_cpp.dir\build.make CMakeFiles/uri_P1005_cpp.dir/build
+.PHONY : uri_P1005_cpp/fast
+
+#=============================================================================
+# Target rules for targets named uri_P1007_cpp
+
+# Build rule for target.
+uri_P1007_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 uri_P1007_cpp
+.PHONY : uri_P1007_cpp
+
+# fast build rule for target.
+uri_P1007_cpp/fast:
+	$(MAKE) -f CMakeFiles\uri_P1007_cpp.dir\build.make CMakeFiles/uri_P1007_cpp.dir/build
+.PHONY : uri_P1007_cpp/fast
+
+#=============================================================================
+# Target rules for targets named uri_p1006_cpp
+
+# Build rule for target.
+uri_p1006_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 uri_p1006_cpp
+.PHONY : uri_p1006_cpp
+
+# fast build rule for target.
+uri_p1006_cpp/fast:
+	$(MAKE) -f CMakeFiles\uri_p1006_cpp.dir\build.make CMakeFiles/uri_p1006_cpp.dir/build
+.PHONY : uri_p1006_cpp/fast
+
+#=============================================================================
+# Target rules for targets named uri_test_c
+
+# Build rule for target.
+uri_test_c: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 uri_test_c
+.PHONY : uri_test_c
+
+# fast build rule for target.
+uri_test_c/fast:
+	$(MAKE) -f CMakeFiles\uri_test_c.dir\build.make CMakeFiles/uri_test_c.dir/build
+.PHONY : uri_test_c/fast
+
+#=============================================================================
+# Target rules for targets named uri_p1007_c
+
+# Build rule for target.
+uri_p1007_c: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 uri_p1007_c
+.PHONY : uri_p1007_c
+
+# fast build rule for target.
+uri_p1007_c/fast:
+	$(MAKE) -f CMakeFiles\uri_p1007_c.dir\build.make CMakeFiles/uri_p1007_c.dir/build
+.PHONY : uri_p1007_c/fast
+
+#=============================================================================
+# Target rules for targets named uri_test_cpp
+
+# Build rule for target.
+uri_test_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 uri_test_cpp
+.PHONY : uri_test_cpp
+
+# fast build rule for target.
+uri_test_cpp/fast:
+	$(MAKE) -f CMakeFiles\uri_test_cpp.dir\build.make CMakeFiles/uri_test_cpp.dir/build
+.PHONY : uri_test_cpp/fast
+
 URI/Accepted_C/P1001_Extremely_Basic.obj: URI/Accepted_C/P1001_Extremely_Basic.c.obj
 
 .PHONY : URI/Accepted_C/P1001_Extremely_Basic.obj
@@ -423,6 +527,87 @@ URI/Accepted_C/P1004_Simple_Product.s: URI/Accepted_C/P1004_Simple_Product.c.s
 URI/Accepted_C/P1004_Simple_Product.c.s:
 	$(MAKE) -f CMakeFiles\uri_p1004_c.dir\build.make CMakeFiles/uri_p1004_c.dir/URI/Accepted_C/P1004_Simple_Product.c.s
 .PHONY : URI/Accepted_C/P1004_Simple_Product.c.s
+
+URI/Accepted_C/P1005_Average_1.obj: URI/Accepted_C/P1005_Average_1.c.obj
+
+.PHONY : URI/Accepted_C/P1005_Average_1.obj
+
+# target to build an object file
+URI/Accepted_C/P1005_Average_1.c.obj:
+	$(MAKE) -f CMakeFiles\uri_p1005_c.dir\build.make CMakeFiles/uri_p1005_c.dir/URI/Accepted_C/P1005_Average_1.c.obj
+.PHONY : URI/Accepted_C/P1005_Average_1.c.obj
+
+URI/Accepted_C/P1005_Average_1.i: URI/Accepted_C/P1005_Average_1.c.i
+
+.PHONY : URI/Accepted_C/P1005_Average_1.i
+
+# target to preprocess a source file
+URI/Accepted_C/P1005_Average_1.c.i:
+	$(MAKE) -f CMakeFiles\uri_p1005_c.dir\build.make CMakeFiles/uri_p1005_c.dir/URI/Accepted_C/P1005_Average_1.c.i
+.PHONY : URI/Accepted_C/P1005_Average_1.c.i
+
+URI/Accepted_C/P1005_Average_1.s: URI/Accepted_C/P1005_Average_1.c.s
+
+.PHONY : URI/Accepted_C/P1005_Average_1.s
+
+# target to generate assembly for a file
+URI/Accepted_C/P1005_Average_1.c.s:
+	$(MAKE) -f CMakeFiles\uri_p1005_c.dir\build.make CMakeFiles/uri_p1005_c.dir/URI/Accepted_C/P1005_Average_1.c.s
+.PHONY : URI/Accepted_C/P1005_Average_1.c.s
+
+URI/Accepted_C/P1006_Average_2.obj: URI/Accepted_C/P1006_Average_2.c.obj
+
+.PHONY : URI/Accepted_C/P1006_Average_2.obj
+
+# target to build an object file
+URI/Accepted_C/P1006_Average_2.c.obj:
+	$(MAKE) -f CMakeFiles\uri_p1006_c.dir\build.make CMakeFiles/uri_p1006_c.dir/URI/Accepted_C/P1006_Average_2.c.obj
+.PHONY : URI/Accepted_C/P1006_Average_2.c.obj
+
+URI/Accepted_C/P1006_Average_2.i: URI/Accepted_C/P1006_Average_2.c.i
+
+.PHONY : URI/Accepted_C/P1006_Average_2.i
+
+# target to preprocess a source file
+URI/Accepted_C/P1006_Average_2.c.i:
+	$(MAKE) -f CMakeFiles\uri_p1006_c.dir\build.make CMakeFiles/uri_p1006_c.dir/URI/Accepted_C/P1006_Average_2.c.i
+.PHONY : URI/Accepted_C/P1006_Average_2.c.i
+
+URI/Accepted_C/P1006_Average_2.s: URI/Accepted_C/P1006_Average_2.c.s
+
+.PHONY : URI/Accepted_C/P1006_Average_2.s
+
+# target to generate assembly for a file
+URI/Accepted_C/P1006_Average_2.c.s:
+	$(MAKE) -f CMakeFiles\uri_p1006_c.dir\build.make CMakeFiles/uri_p1006_c.dir/URI/Accepted_C/P1006_Average_2.c.s
+.PHONY : URI/Accepted_C/P1006_Average_2.c.s
+
+URI/Accepted_C/P1007_Difference.obj: URI/Accepted_C/P1007_Difference.c.obj
+
+.PHONY : URI/Accepted_C/P1007_Difference.obj
+
+# target to build an object file
+URI/Accepted_C/P1007_Difference.c.obj:
+	$(MAKE) -f CMakeFiles\uri_p1007_c.dir\build.make CMakeFiles/uri_p1007_c.dir/URI/Accepted_C/P1007_Difference.c.obj
+.PHONY : URI/Accepted_C/P1007_Difference.c.obj
+
+URI/Accepted_C/P1007_Difference.i: URI/Accepted_C/P1007_Difference.c.i
+
+.PHONY : URI/Accepted_C/P1007_Difference.i
+
+# target to preprocess a source file
+URI/Accepted_C/P1007_Difference.c.i:
+	$(MAKE) -f CMakeFiles\uri_p1007_c.dir\build.make CMakeFiles/uri_p1007_c.dir/URI/Accepted_C/P1007_Difference.c.i
+.PHONY : URI/Accepted_C/P1007_Difference.c.i
+
+URI/Accepted_C/P1007_Difference.s: URI/Accepted_C/P1007_Difference.c.s
+
+.PHONY : URI/Accepted_C/P1007_Difference.s
+
+# target to generate assembly for a file
+URI/Accepted_C/P1007_Difference.c.s:
+	$(MAKE) -f CMakeFiles\uri_p1007_c.dir\build.make CMakeFiles/uri_p1007_c.dir/URI/Accepted_C/P1007_Difference.c.s
+.PHONY : URI/Accepted_C/P1007_Difference.c.s
 
 URI/Accepted_C/P1569_Snakes_and_Ladders.obj: URI/Accepted_C/P1569_Snakes_and_Ladders.c.obj
 
@@ -588,6 +773,87 @@ URI/Accepted_CPP/P1004_Simple_Product.s: URI/Accepted_CPP/P1004_Simple_Product.c
 URI/Accepted_CPP/P1004_Simple_Product.cpp.s:
 	$(MAKE) -f CMakeFiles\uri_p1004_cpp.dir\build.make CMakeFiles/uri_p1004_cpp.dir/URI/Accepted_CPP/P1004_Simple_Product.cpp.s
 .PHONY : URI/Accepted_CPP/P1004_Simple_Product.cpp.s
+
+URI/Accepted_CPP/P1005_Average_1.obj: URI/Accepted_CPP/P1005_Average_1.cpp.obj
+
+.PHONY : URI/Accepted_CPP/P1005_Average_1.obj
+
+# target to build an object file
+URI/Accepted_CPP/P1005_Average_1.cpp.obj:
+	$(MAKE) -f CMakeFiles\uri_P1005_cpp.dir\build.make CMakeFiles/uri_P1005_cpp.dir/URI/Accepted_CPP/P1005_Average_1.cpp.obj
+.PHONY : URI/Accepted_CPP/P1005_Average_1.cpp.obj
+
+URI/Accepted_CPP/P1005_Average_1.i: URI/Accepted_CPP/P1005_Average_1.cpp.i
+
+.PHONY : URI/Accepted_CPP/P1005_Average_1.i
+
+# target to preprocess a source file
+URI/Accepted_CPP/P1005_Average_1.cpp.i:
+	$(MAKE) -f CMakeFiles\uri_P1005_cpp.dir\build.make CMakeFiles/uri_P1005_cpp.dir/URI/Accepted_CPP/P1005_Average_1.cpp.i
+.PHONY : URI/Accepted_CPP/P1005_Average_1.cpp.i
+
+URI/Accepted_CPP/P1005_Average_1.s: URI/Accepted_CPP/P1005_Average_1.cpp.s
+
+.PHONY : URI/Accepted_CPP/P1005_Average_1.s
+
+# target to generate assembly for a file
+URI/Accepted_CPP/P1005_Average_1.cpp.s:
+	$(MAKE) -f CMakeFiles\uri_P1005_cpp.dir\build.make CMakeFiles/uri_P1005_cpp.dir/URI/Accepted_CPP/P1005_Average_1.cpp.s
+.PHONY : URI/Accepted_CPP/P1005_Average_1.cpp.s
+
+URI/Accepted_CPP/P1006_Average_2.obj: URI/Accepted_CPP/P1006_Average_2.cpp.obj
+
+.PHONY : URI/Accepted_CPP/P1006_Average_2.obj
+
+# target to build an object file
+URI/Accepted_CPP/P1006_Average_2.cpp.obj:
+	$(MAKE) -f CMakeFiles\uri_p1006_cpp.dir\build.make CMakeFiles/uri_p1006_cpp.dir/URI/Accepted_CPP/P1006_Average_2.cpp.obj
+.PHONY : URI/Accepted_CPP/P1006_Average_2.cpp.obj
+
+URI/Accepted_CPP/P1006_Average_2.i: URI/Accepted_CPP/P1006_Average_2.cpp.i
+
+.PHONY : URI/Accepted_CPP/P1006_Average_2.i
+
+# target to preprocess a source file
+URI/Accepted_CPP/P1006_Average_2.cpp.i:
+	$(MAKE) -f CMakeFiles\uri_p1006_cpp.dir\build.make CMakeFiles/uri_p1006_cpp.dir/URI/Accepted_CPP/P1006_Average_2.cpp.i
+.PHONY : URI/Accepted_CPP/P1006_Average_2.cpp.i
+
+URI/Accepted_CPP/P1006_Average_2.s: URI/Accepted_CPP/P1006_Average_2.cpp.s
+
+.PHONY : URI/Accepted_CPP/P1006_Average_2.s
+
+# target to generate assembly for a file
+URI/Accepted_CPP/P1006_Average_2.cpp.s:
+	$(MAKE) -f CMakeFiles\uri_p1006_cpp.dir\build.make CMakeFiles/uri_p1006_cpp.dir/URI/Accepted_CPP/P1006_Average_2.cpp.s
+.PHONY : URI/Accepted_CPP/P1006_Average_2.cpp.s
+
+URI/Accepted_CPP/P1007_Difference.obj: URI/Accepted_CPP/P1007_Difference.cpp.obj
+
+.PHONY : URI/Accepted_CPP/P1007_Difference.obj
+
+# target to build an object file
+URI/Accepted_CPP/P1007_Difference.cpp.obj:
+	$(MAKE) -f CMakeFiles\uri_P1007_cpp.dir\build.make CMakeFiles/uri_P1007_cpp.dir/URI/Accepted_CPP/P1007_Difference.cpp.obj
+.PHONY : URI/Accepted_CPP/P1007_Difference.cpp.obj
+
+URI/Accepted_CPP/P1007_Difference.i: URI/Accepted_CPP/P1007_Difference.cpp.i
+
+.PHONY : URI/Accepted_CPP/P1007_Difference.i
+
+# target to preprocess a source file
+URI/Accepted_CPP/P1007_Difference.cpp.i:
+	$(MAKE) -f CMakeFiles\uri_P1007_cpp.dir\build.make CMakeFiles/uri_P1007_cpp.dir/URI/Accepted_CPP/P1007_Difference.cpp.i
+.PHONY : URI/Accepted_CPP/P1007_Difference.cpp.i
+
+URI/Accepted_CPP/P1007_Difference.s: URI/Accepted_CPP/P1007_Difference.cpp.s
+
+.PHONY : URI/Accepted_CPP/P1007_Difference.s
+
+# target to generate assembly for a file
+URI/Accepted_CPP/P1007_Difference.cpp.s:
+	$(MAKE) -f CMakeFiles\uri_P1007_cpp.dir\build.make CMakeFiles/uri_P1007_cpp.dir/URI/Accepted_CPP/P1007_Difference.cpp.s
+.PHONY : URI/Accepted_CPP/P1007_Difference.cpp.s
 
 URI/Accepted_CPP/P1764_Itinerary_of_Santa_Claus.obj: URI/Accepted_CPP/P1764_Itinerary_of_Santa_Claus.cpp.obj
 
@@ -778,6 +1044,33 @@ URI/Accepted_CPP/P2916_The_Note.cpp.s:
 	$(MAKE) -f CMakeFiles\uri_p2916_cpp.dir\build.make CMakeFiles/uri_p2916_cpp.dir/URI/Accepted_CPP/P2916_The_Note.cpp.s
 .PHONY : URI/Accepted_CPP/P2916_The_Note.cpp.s
 
+URI/Trying_C/CTEST.obj: URI/Trying_C/CTEST.c.obj
+
+.PHONY : URI/Trying_C/CTEST.obj
+
+# target to build an object file
+URI/Trying_C/CTEST.c.obj:
+	$(MAKE) -f CMakeFiles\uri_test_c.dir\build.make CMakeFiles/uri_test_c.dir/URI/Trying_C/CTEST.c.obj
+.PHONY : URI/Trying_C/CTEST.c.obj
+
+URI/Trying_C/CTEST.i: URI/Trying_C/CTEST.c.i
+
+.PHONY : URI/Trying_C/CTEST.i
+
+# target to preprocess a source file
+URI/Trying_C/CTEST.c.i:
+	$(MAKE) -f CMakeFiles\uri_test_c.dir\build.make CMakeFiles/uri_test_c.dir/URI/Trying_C/CTEST.c.i
+.PHONY : URI/Trying_C/CTEST.c.i
+
+URI/Trying_C/CTEST.s: URI/Trying_C/CTEST.c.s
+
+.PHONY : URI/Trying_C/CTEST.s
+
+# target to generate assembly for a file
+URI/Trying_C/CTEST.c.s:
+	$(MAKE) -f CMakeFiles\uri_test_c.dir\build.make CMakeFiles/uri_test_c.dir/URI/Trying_C/CTEST.c.s
+.PHONY : URI/Trying_C/CTEST.c.s
+
 URI/Trying_C/P1883_Escape_From_Ayutthaya.obj: URI/Trying_C/P1883_Escape_From_Ayutthaya.c.obj
 
 .PHONY : URI/Trying_C/P1883_Escape_From_Ayutthaya.obj
@@ -832,6 +1125,33 @@ URI/Trying_C/P2500_William_Xorando.c.s:
 	$(MAKE) -f CMakeFiles\uri_P2500_c.dir\build.make CMakeFiles/uri_P2500_c.dir/URI/Trying_C/P2500_William_Xorando.c.s
 .PHONY : URI/Trying_C/P2500_William_Xorando.c.s
 
+URI/Trying_CPP/CPPTEST.obj: URI/Trying_CPP/CPPTEST.cpp.obj
+
+.PHONY : URI/Trying_CPP/CPPTEST.obj
+
+# target to build an object file
+URI/Trying_CPP/CPPTEST.cpp.obj:
+	$(MAKE) -f CMakeFiles\uri_test_cpp.dir\build.make CMakeFiles/uri_test_cpp.dir/URI/Trying_CPP/CPPTEST.cpp.obj
+.PHONY : URI/Trying_CPP/CPPTEST.cpp.obj
+
+URI/Trying_CPP/CPPTEST.i: URI/Trying_CPP/CPPTEST.cpp.i
+
+.PHONY : URI/Trying_CPP/CPPTEST.i
+
+# target to preprocess a source file
+URI/Trying_CPP/CPPTEST.cpp.i:
+	$(MAKE) -f CMakeFiles\uri_test_cpp.dir\build.make CMakeFiles/uri_test_cpp.dir/URI/Trying_CPP/CPPTEST.cpp.i
+.PHONY : URI/Trying_CPP/CPPTEST.cpp.i
+
+URI/Trying_CPP/CPPTEST.s: URI/Trying_CPP/CPPTEST.cpp.s
+
+.PHONY : URI/Trying_CPP/CPPTEST.s
+
+# target to generate assembly for a file
+URI/Trying_CPP/CPPTEST.cpp.s:
+	$(MAKE) -f CMakeFiles\uri_test_cpp.dir\build.make CMakeFiles/uri_test_cpp.dir/URI/Trying_CPP/CPPTEST.cpp.s
+.PHONY : URI/Trying_CPP/CPPTEST.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -840,14 +1160,16 @@ help:
 	@echo ... depend
 	@echo ... uri_P2692_c
 	@echo ... uri_p1002_c
-	@echo ... uri_P1907_cpp
+	@echo ... uri_p1006_c
 	@echo ... uri_p1569_c
-	@echo ... uri_P1764_cpp
 	@echo ... uri_P1001_c
 	@echo ... uri_p1004_c
+	@echo ... uri_p1005_c
 	@echo ... uri_p1883_c
 	@echo ... uri_p1883_cpp
 	@echo ... uri_p1912_cpp
+	@echo ... uri_P1907_cpp
+	@echo ... uri_P1764_cpp
 	@echo ... uri_P2758_cpp
 	@echo ... uri_P2500_c
 	@echo ... uri_p1004_cpp
@@ -857,6 +1179,12 @@ help:
 	@echo ... uri_p1002_cpp
 	@echo ... edit_cache
 	@echo ... uri_P1003_cpp
+	@echo ... uri_P1005_cpp
+	@echo ... uri_P1007_cpp
+	@echo ... uri_p1006_cpp
+	@echo ... uri_test_c
+	@echo ... uri_p1007_c
+	@echo ... uri_test_cpp
 	@echo ... rebuild_cache
 	@echo ... URI/Accepted_C/P1001_Extremely_Basic.obj
 	@echo ... URI/Accepted_C/P1001_Extremely_Basic.i
@@ -867,6 +1195,15 @@ help:
 	@echo ... URI/Accepted_C/P1004_Simple_Product.obj
 	@echo ... URI/Accepted_C/P1004_Simple_Product.i
 	@echo ... URI/Accepted_C/P1004_Simple_Product.s
+	@echo ... URI/Accepted_C/P1005_Average_1.obj
+	@echo ... URI/Accepted_C/P1005_Average_1.i
+	@echo ... URI/Accepted_C/P1005_Average_1.s
+	@echo ... URI/Accepted_C/P1006_Average_2.obj
+	@echo ... URI/Accepted_C/P1006_Average_2.i
+	@echo ... URI/Accepted_C/P1006_Average_2.s
+	@echo ... URI/Accepted_C/P1007_Difference.obj
+	@echo ... URI/Accepted_C/P1007_Difference.i
+	@echo ... URI/Accepted_C/P1007_Difference.s
 	@echo ... URI/Accepted_C/P1569_Snakes_and_Ladders.obj
 	@echo ... URI/Accepted_C/P1569_Snakes_and_Ladders.i
 	@echo ... URI/Accepted_C/P1569_Snakes_and_Ladders.s
@@ -885,6 +1222,15 @@ help:
 	@echo ... URI/Accepted_CPP/P1004_Simple_Product.obj
 	@echo ... URI/Accepted_CPP/P1004_Simple_Product.i
 	@echo ... URI/Accepted_CPP/P1004_Simple_Product.s
+	@echo ... URI/Accepted_CPP/P1005_Average_1.obj
+	@echo ... URI/Accepted_CPP/P1005_Average_1.i
+	@echo ... URI/Accepted_CPP/P1005_Average_1.s
+	@echo ... URI/Accepted_CPP/P1006_Average_2.obj
+	@echo ... URI/Accepted_CPP/P1006_Average_2.i
+	@echo ... URI/Accepted_CPP/P1006_Average_2.s
+	@echo ... URI/Accepted_CPP/P1007_Difference.obj
+	@echo ... URI/Accepted_CPP/P1007_Difference.i
+	@echo ... URI/Accepted_CPP/P1007_Difference.s
 	@echo ... URI/Accepted_CPP/P1764_Itinerary_of_Santa_Claus.obj
 	@echo ... URI/Accepted_CPP/P1764_Itinerary_of_Santa_Claus.i
 	@echo ... URI/Accepted_CPP/P1764_Itinerary_of_Santa_Claus.s
@@ -906,12 +1252,18 @@ help:
 	@echo ... URI/Accepted_CPP/P2916_The_Note.obj
 	@echo ... URI/Accepted_CPP/P2916_The_Note.i
 	@echo ... URI/Accepted_CPP/P2916_The_Note.s
+	@echo ... URI/Trying_C/CTEST.obj
+	@echo ... URI/Trying_C/CTEST.i
+	@echo ... URI/Trying_C/CTEST.s
 	@echo ... URI/Trying_C/P1883_Escape_From_Ayutthaya.obj
 	@echo ... URI/Trying_C/P1883_Escape_From_Ayutthaya.i
 	@echo ... URI/Trying_C/P1883_Escape_From_Ayutthaya.s
 	@echo ... URI/Trying_C/P2500_William_Xorando.obj
 	@echo ... URI/Trying_C/P2500_William_Xorando.i
 	@echo ... URI/Trying_C/P2500_William_Xorando.s
+	@echo ... URI/Trying_CPP/CPPTEST.obj
+	@echo ... URI/Trying_CPP/CPPTEST.i
+	@echo ... URI/Trying_CPP/CPPTEST.s
 .PHONY : help
 
 
