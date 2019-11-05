@@ -56,27 +56,27 @@ include CMakeFiles/uri_p1004_c.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/uri_p1004_c.dir/flags.make
 
-CMakeFiles/uri_p1004_c.dir/URI/Trying_C/P1004_Simple_Product.c.obj: CMakeFiles/uri_p1004_c.dir/flags.make
-CMakeFiles/uri_p1004_c.dir/URI/Trying_C/P1004_Simple_Product.c.obj: ../URI/Trying_C/P1004_Simple_Product.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Projects\C Projects\onlinejudge_c_cpp\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/uri_p1004_c.dir/URI/Trying_C/P1004_Simple_Product.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\uri_p1004_c.dir\URI\Trying_C\P1004_Simple_Product.c.obj   -c "E:\Projects\C Projects\onlinejudge_c_cpp\URI\Trying_C\P1004_Simple_Product.c"
+CMakeFiles/uri_p1004_c.dir/URI/Accepted_C/P1004_Simple_Product.c.obj: CMakeFiles/uri_p1004_c.dir/flags.make
+CMakeFiles/uri_p1004_c.dir/URI/Accepted_C/P1004_Simple_Product.c.obj: ../URI/Accepted_C/P1004_Simple_Product.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Projects\C Projects\onlinejudge_c_cpp\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/uri_p1004_c.dir/URI/Accepted_C/P1004_Simple_Product.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\uri_p1004_c.dir\URI\Accepted_C\P1004_Simple_Product.c.obj   -c "E:\Projects\C Projects\onlinejudge_c_cpp\URI\Accepted_C\P1004_Simple_Product.c"
 
-CMakeFiles/uri_p1004_c.dir/URI/Trying_C/P1004_Simple_Product.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uri_p1004_c.dir/URI/Trying_C/P1004_Simple_Product.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\Projects\C Projects\onlinejudge_c_cpp\URI\Trying_C\P1004_Simple_Product.c" > CMakeFiles\uri_p1004_c.dir\URI\Trying_C\P1004_Simple_Product.c.i
+CMakeFiles/uri_p1004_c.dir/URI/Accepted_C/P1004_Simple_Product.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uri_p1004_c.dir/URI/Accepted_C/P1004_Simple_Product.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\Projects\C Projects\onlinejudge_c_cpp\URI\Accepted_C\P1004_Simple_Product.c" > CMakeFiles\uri_p1004_c.dir\URI\Accepted_C\P1004_Simple_Product.c.i
 
-CMakeFiles/uri_p1004_c.dir/URI/Trying_C/P1004_Simple_Product.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uri_p1004_c.dir/URI/Trying_C/P1004_Simple_Product.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\Projects\C Projects\onlinejudge_c_cpp\URI\Trying_C\P1004_Simple_Product.c" -o CMakeFiles\uri_p1004_c.dir\URI\Trying_C\P1004_Simple_Product.c.s
+CMakeFiles/uri_p1004_c.dir/URI/Accepted_C/P1004_Simple_Product.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uri_p1004_c.dir/URI/Accepted_C/P1004_Simple_Product.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\Projects\C Projects\onlinejudge_c_cpp\URI\Accepted_C\P1004_Simple_Product.c" -o CMakeFiles\uri_p1004_c.dir\URI\Accepted_C\P1004_Simple_Product.c.s
 
 # Object files for target uri_p1004_c
 uri_p1004_c_OBJECTS = \
-"CMakeFiles/uri_p1004_c.dir/URI/Trying_C/P1004_Simple_Product.c.obj"
+"CMakeFiles/uri_p1004_c.dir/URI/Accepted_C/P1004_Simple_Product.c.obj"
 
 # External object files for target uri_p1004_c
 uri_p1004_c_EXTERNAL_OBJECTS =
 
-uri_p1004_c.exe: CMakeFiles/uri_p1004_c.dir/URI/Trying_C/P1004_Simple_Product.c.obj
+uri_p1004_c.exe: CMakeFiles/uri_p1004_c.dir/URI/Accepted_C/P1004_Simple_Product.c.obj
 uri_p1004_c.exe: CMakeFiles/uri_p1004_c.dir/build.make
 uri_p1004_c.exe: CMakeFiles/uri_p1004_c.dir/linklibs.rsp
 uri_p1004_c.exe: CMakeFiles/uri_p1004_c.dir/objects1.rsp

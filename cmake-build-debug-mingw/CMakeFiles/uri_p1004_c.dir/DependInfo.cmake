@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "E:/Projects/C Projects/onlinejudge_c_cpp/URI/Trying_C/P1004_Simple_Product.c" "E:/Projects/C Projects/onlinejudge_c_cpp/cmake-build-debug-mingw/CMakeFiles/uri_p1004_c.dir/URI/Trying_C/P1004_Simple_Product.c.obj"
+  "E:/Projects/C Projects/onlinejudge_c_cpp/URI/Accepted_C/P1004_Simple_Product.c" "E:/Projects/C Projects/onlinejudge_c_cpp/cmake-build-debug-mingw/CMakeFiles/uri_p1004_c.dir/URI/Accepted_C/P1004_Simple_Product.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

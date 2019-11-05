@@ -397,6 +397,33 @@ URI/Accepted_C/P1002_Area_of_a_Circle.c.s:
 	$(MAKE) -f CMakeFiles\uri_p1002_c.dir\build.make CMakeFiles/uri_p1002_c.dir/URI/Accepted_C/P1002_Area_of_a_Circle.c.s
 .PHONY : URI/Accepted_C/P1002_Area_of_a_Circle.c.s
 
+URI/Accepted_C/P1004_Simple_Product.obj: URI/Accepted_C/P1004_Simple_Product.c.obj
+
+.PHONY : URI/Accepted_C/P1004_Simple_Product.obj
+
+# target to build an object file
+URI/Accepted_C/P1004_Simple_Product.c.obj:
+	$(MAKE) -f CMakeFiles\uri_p1004_c.dir\build.make CMakeFiles/uri_p1004_c.dir/URI/Accepted_C/P1004_Simple_Product.c.obj
+.PHONY : URI/Accepted_C/P1004_Simple_Product.c.obj
+
+URI/Accepted_C/P1004_Simple_Product.i: URI/Accepted_C/P1004_Simple_Product.c.i
+
+.PHONY : URI/Accepted_C/P1004_Simple_Product.i
+
+# target to preprocess a source file
+URI/Accepted_C/P1004_Simple_Product.c.i:
+	$(MAKE) -f CMakeFiles\uri_p1004_c.dir\build.make CMakeFiles/uri_p1004_c.dir/URI/Accepted_C/P1004_Simple_Product.c.i
+.PHONY : URI/Accepted_C/P1004_Simple_Product.c.i
+
+URI/Accepted_C/P1004_Simple_Product.s: URI/Accepted_C/P1004_Simple_Product.c.s
+
+.PHONY : URI/Accepted_C/P1004_Simple_Product.s
+
+# target to generate assembly for a file
+URI/Accepted_C/P1004_Simple_Product.c.s:
+	$(MAKE) -f CMakeFiles\uri_p1004_c.dir\build.make CMakeFiles/uri_p1004_c.dir/URI/Accepted_C/P1004_Simple_Product.c.s
+.PHONY : URI/Accepted_C/P1004_Simple_Product.c.s
+
 URI/Accepted_C/P1569_Snakes_and_Ladders.obj: URI/Accepted_C/P1569_Snakes_and_Ladders.c.obj
 
 .PHONY : URI/Accepted_C/P1569_Snakes_and_Ladders.obj
@@ -751,33 +778,6 @@ URI/Accepted_CPP/P2916_The_Note.cpp.s:
 	$(MAKE) -f CMakeFiles\uri_p2916_cpp.dir\build.make CMakeFiles/uri_p2916_cpp.dir/URI/Accepted_CPP/P2916_The_Note.cpp.s
 .PHONY : URI/Accepted_CPP/P2916_The_Note.cpp.s
 
-URI/Trying_C/P1004_Simple_Product.obj: URI/Trying_C/P1004_Simple_Product.c.obj
-
-.PHONY : URI/Trying_C/P1004_Simple_Product.obj
-
-# target to build an object file
-URI/Trying_C/P1004_Simple_Product.c.obj:
-	$(MAKE) -f CMakeFiles\uri_p1004_c.dir\build.make CMakeFiles/uri_p1004_c.dir/URI/Trying_C/P1004_Simple_Product.c.obj
-.PHONY : URI/Trying_C/P1004_Simple_Product.c.obj
-
-URI/Trying_C/P1004_Simple_Product.i: URI/Trying_C/P1004_Simple_Product.c.i
-
-.PHONY : URI/Trying_C/P1004_Simple_Product.i
-
-# target to preprocess a source file
-URI/Trying_C/P1004_Simple_Product.c.i:
-	$(MAKE) -f CMakeFiles\uri_p1004_c.dir\build.make CMakeFiles/uri_p1004_c.dir/URI/Trying_C/P1004_Simple_Product.c.i
-.PHONY : URI/Trying_C/P1004_Simple_Product.c.i
-
-URI/Trying_C/P1004_Simple_Product.s: URI/Trying_C/P1004_Simple_Product.c.s
-
-.PHONY : URI/Trying_C/P1004_Simple_Product.s
-
-# target to generate assembly for a file
-URI/Trying_C/P1004_Simple_Product.c.s:
-	$(MAKE) -f CMakeFiles\uri_p1004_c.dir\build.make CMakeFiles/uri_p1004_c.dir/URI/Trying_C/P1004_Simple_Product.c.s
-.PHONY : URI/Trying_C/P1004_Simple_Product.c.s
-
 URI/Trying_C/P1883_Escape_From_Ayutthaya.obj: URI/Trying_C/P1883_Escape_From_Ayutthaya.c.obj
 
 .PHONY : URI/Trying_C/P1883_Escape_From_Ayutthaya.obj
@@ -864,6 +864,9 @@ help:
 	@echo ... URI/Accepted_C/P1002_Area_of_a_Circle.obj
 	@echo ... URI/Accepted_C/P1002_Area_of_a_Circle.i
 	@echo ... URI/Accepted_C/P1002_Area_of_a_Circle.s
+	@echo ... URI/Accepted_C/P1004_Simple_Product.obj
+	@echo ... URI/Accepted_C/P1004_Simple_Product.i
+	@echo ... URI/Accepted_C/P1004_Simple_Product.s
 	@echo ... URI/Accepted_C/P1569_Snakes_and_Ladders.obj
 	@echo ... URI/Accepted_C/P1569_Snakes_and_Ladders.i
 	@echo ... URI/Accepted_C/P1569_Snakes_and_Ladders.s
@@ -903,9 +906,6 @@ help:
 	@echo ... URI/Accepted_CPP/P2916_The_Note.obj
 	@echo ... URI/Accepted_CPP/P2916_The_Note.i
 	@echo ... URI/Accepted_CPP/P2916_The_Note.s
-	@echo ... URI/Trying_C/P1004_Simple_Product.obj
-	@echo ... URI/Trying_C/P1004_Simple_Product.i
-	@echo ... URI/Trying_C/P1004_Simple_Product.s
 	@echo ... URI/Trying_C/P1883_Escape_From_Ayutthaya.obj
 	@echo ... URI/Trying_C/P1883_Escape_From_Ayutthaya.i
 	@echo ... URI/Trying_C/P1883_Escape_From_Ayutthaya.s
