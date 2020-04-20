@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+Z:/C_CPP_Project/onlinejudge_c_cpp/URI/Trying/P3046_Domino.c
+stdio.h
+-
+math.h
+-
+

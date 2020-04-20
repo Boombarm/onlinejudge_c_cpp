@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+Z:/C_CPP_Project/onlinejudge_c_cpp/URI/Trying/P3040_The_Christmas_Tree.c
+stdio.h
+-
+
