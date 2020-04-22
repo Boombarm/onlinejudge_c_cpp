@@ -2,6 +2,16 @@ Z:/C_CPP_Project/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/P3046_Domino.dir
 Z:/C_CPP_Project/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 Z:/C_CPP_Project/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/P2556.dir
 Z:/C_CPP_Project/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/P3046_Domino_c.dir
+Z:/C_CPP_Project/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/P3053_c.dir
 Z:/C_CPP_Project/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/P3040_The_Christmas_Tree_c.dir
 Z:/C_CPP_Project/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/P3040_The_Christmas_Tree_cpp.dir
+Z:/C_CPP_Project/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/P3047_c.dir
+Z:/C_CPP_Project/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/P3047_cpp.dir
+Z:/C_CPP_Project/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/P3037_c.dir
+Z:/C_CPP_Project/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/P3053_cpp.dir
+Z:/C_CPP_Project/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/P3037_cpp.dir
+Z:/C_CPP_Project/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/P3038_c.dir
+Z:/C_CPP_Project/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/P3038_cpp.dir
+Z:/C_CPP_Project/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/P3039_c.dir
+Z:/C_CPP_Project/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/P3039_cpp.dir
 Z:/C_CPP_Project/onlinejudge_c_cpp/cmake-build-debug/CMakeFiles/edit_cache.dir

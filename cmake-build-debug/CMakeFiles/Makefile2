@@ -55,8 +55,18 @@ CMAKE_BINARY_DIR = Z:\C_CPP_Project\onlinejudge_c_cpp\cmake-build-debug
 all: CMakeFiles/P3046_Domino.dir/all
 all: CMakeFiles/P2556.dir/all
 all: CMakeFiles/P3046_Domino_c.dir/all
+all: CMakeFiles/P3053_c.dir/all
 all: CMakeFiles/P3040_The_Christmas_Tree_c.dir/all
 all: CMakeFiles/P3040_The_Christmas_Tree_cpp.dir/all
+all: CMakeFiles/P3047_c.dir/all
+all: CMakeFiles/P3047_cpp.dir/all
+all: CMakeFiles/P3037_c.dir/all
+all: CMakeFiles/P3053_cpp.dir/all
+all: CMakeFiles/P3037_cpp.dir/all
+all: CMakeFiles/P3038_c.dir/all
+all: CMakeFiles/P3038_cpp.dir/all
+all: CMakeFiles/P3039_c.dir/all
+all: CMakeFiles/P3039_cpp.dir/all
 
 .PHONY : all
 
@@ -64,8 +74,18 @@ all: CMakeFiles/P3040_The_Christmas_Tree_cpp.dir/all
 clean: CMakeFiles/P3046_Domino.dir/clean
 clean: CMakeFiles/P2556.dir/clean
 clean: CMakeFiles/P3046_Domino_c.dir/clean
+clean: CMakeFiles/P3053_c.dir/clean
 clean: CMakeFiles/P3040_The_Christmas_Tree_c.dir/clean
 clean: CMakeFiles/P3040_The_Christmas_Tree_cpp.dir/clean
+clean: CMakeFiles/P3047_c.dir/clean
+clean: CMakeFiles/P3047_cpp.dir/clean
+clean: CMakeFiles/P3037_c.dir/clean
+clean: CMakeFiles/P3053_cpp.dir/clean
+clean: CMakeFiles/P3037_cpp.dir/clean
+clean: CMakeFiles/P3038_c.dir/clean
+clean: CMakeFiles/P3038_cpp.dir/clean
+clean: CMakeFiles/P3039_c.dir/clean
+clean: CMakeFiles/P3039_cpp.dir/clean
 
 .PHONY : clean
 
@@ -81,7 +101,7 @@ preinstall:
 CMakeFiles/P3046_Domino.dir/all:
 	$(MAKE) -f CMakeFiles\P3046_Domino.dir\build.make CMakeFiles/P3046_Domino.dir/depend
 	$(MAKE) -f CMakeFiles\P3046_Domino.dir\build.make CMakeFiles/P3046_Domino.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=Z:\C_CPP_Project\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target P3046_Domino"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=Z:\C_CPP_Project\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target P3046_Domino"
 .PHONY : CMakeFiles/P3046_Domino.dir/all
 
 # Build rule for subdir invocation for target.
@@ -135,7 +155,7 @@ CMakeFiles/P2556.dir/clean:
 CMakeFiles/P3046_Domino_c.dir/all:
 	$(MAKE) -f CMakeFiles\P3046_Domino_c.dir\build.make CMakeFiles/P3046_Domino_c.dir/depend
 	$(MAKE) -f CMakeFiles\P3046_Domino_c.dir\build.make CMakeFiles/P3046_Domino_c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=Z:\C_CPP_Project\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target P3046_Domino_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=Z:\C_CPP_Project\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target P3046_Domino_c"
 .PHONY : CMakeFiles/P3046_Domino_c.dir/all
 
 # Build rule for subdir invocation for target.
@@ -156,13 +176,40 @@ CMakeFiles/P3046_Domino_c.dir/clean:
 .PHONY : CMakeFiles/P3046_Domino_c.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/P3053_c.dir
+
+# All Build rule for target.
+CMakeFiles/P3053_c.dir/all:
+	$(MAKE) -f CMakeFiles\P3053_c.dir\build.make CMakeFiles/P3053_c.dir/depend
+	$(MAKE) -f CMakeFiles\P3053_c.dir\build.make CMakeFiles/P3053_c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=Z:\C_CPP_Project\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target P3053_c"
+.PHONY : CMakeFiles/P3053_c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/P3053_c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start Z:\C_CPP_Project\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/P3053_c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start Z:\C_CPP_Project\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/P3053_c.dir/rule
+
+# Convenience name for target.
+P3053_c: CMakeFiles/P3053_c.dir/rule
+
+.PHONY : P3053_c
+
+# clean rule for target.
+CMakeFiles/P3053_c.dir/clean:
+	$(MAKE) -f CMakeFiles\P3053_c.dir\build.make CMakeFiles/P3053_c.dir/clean
+.PHONY : CMakeFiles/P3053_c.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/P3040_The_Christmas_Tree_c.dir
 
 # All Build rule for target.
 CMakeFiles/P3040_The_Christmas_Tree_c.dir/all:
 	$(MAKE) -f CMakeFiles\P3040_The_Christmas_Tree_c.dir\build.make CMakeFiles/P3040_The_Christmas_Tree_c.dir/depend
 	$(MAKE) -f CMakeFiles\P3040_The_Christmas_Tree_c.dir\build.make CMakeFiles/P3040_The_Christmas_Tree_c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=Z:\C_CPP_Project\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target P3040_The_Christmas_Tree_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=Z:\C_CPP_Project\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target P3040_The_Christmas_Tree_c"
 .PHONY : CMakeFiles/P3040_The_Christmas_Tree_c.dir/all
 
 # Build rule for subdir invocation for target.
@@ -189,7 +236,7 @@ CMakeFiles/P3040_The_Christmas_Tree_c.dir/clean:
 CMakeFiles/P3040_The_Christmas_Tree_cpp.dir/all:
 	$(MAKE) -f CMakeFiles\P3040_The_Christmas_Tree_cpp.dir\build.make CMakeFiles/P3040_The_Christmas_Tree_cpp.dir/depend
 	$(MAKE) -f CMakeFiles\P3040_The_Christmas_Tree_cpp.dir\build.make CMakeFiles/P3040_The_Christmas_Tree_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=Z:\C_CPP_Project\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target P3040_The_Christmas_Tree_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=Z:\C_CPP_Project\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target P3040_The_Christmas_Tree_cpp"
 .PHONY : CMakeFiles/P3040_The_Christmas_Tree_cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -208,6 +255,249 @@ P3040_The_Christmas_Tree_cpp: CMakeFiles/P3040_The_Christmas_Tree_cpp.dir/rule
 CMakeFiles/P3040_The_Christmas_Tree_cpp.dir/clean:
 	$(MAKE) -f CMakeFiles\P3040_The_Christmas_Tree_cpp.dir\build.make CMakeFiles/P3040_The_Christmas_Tree_cpp.dir/clean
 .PHONY : CMakeFiles/P3040_The_Christmas_Tree_cpp.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/P3047_c.dir
+
+# All Build rule for target.
+CMakeFiles/P3047_c.dir/all:
+	$(MAKE) -f CMakeFiles\P3047_c.dir\build.make CMakeFiles/P3047_c.dir/depend
+	$(MAKE) -f CMakeFiles\P3047_c.dir\build.make CMakeFiles/P3047_c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=Z:\C_CPP_Project\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target P3047_c"
+.PHONY : CMakeFiles/P3047_c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/P3047_c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start Z:\C_CPP_Project\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/P3047_c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start Z:\C_CPP_Project\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/P3047_c.dir/rule
+
+# Convenience name for target.
+P3047_c: CMakeFiles/P3047_c.dir/rule
+
+.PHONY : P3047_c
+
+# clean rule for target.
+CMakeFiles/P3047_c.dir/clean:
+	$(MAKE) -f CMakeFiles\P3047_c.dir\build.make CMakeFiles/P3047_c.dir/clean
+.PHONY : CMakeFiles/P3047_c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/P3047_cpp.dir
+
+# All Build rule for target.
+CMakeFiles/P3047_cpp.dir/all:
+	$(MAKE) -f CMakeFiles\P3047_cpp.dir\build.make CMakeFiles/P3047_cpp.dir/depend
+	$(MAKE) -f CMakeFiles\P3047_cpp.dir\build.make CMakeFiles/P3047_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=Z:\C_CPP_Project\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target P3047_cpp"
+.PHONY : CMakeFiles/P3047_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/P3047_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start Z:\C_CPP_Project\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/P3047_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start Z:\C_CPP_Project\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/P3047_cpp.dir/rule
+
+# Convenience name for target.
+P3047_cpp: CMakeFiles/P3047_cpp.dir/rule
+
+.PHONY : P3047_cpp
+
+# clean rule for target.
+CMakeFiles/P3047_cpp.dir/clean:
+	$(MAKE) -f CMakeFiles\P3047_cpp.dir\build.make CMakeFiles/P3047_cpp.dir/clean
+.PHONY : CMakeFiles/P3047_cpp.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/P3037_c.dir
+
+# All Build rule for target.
+CMakeFiles/P3037_c.dir/all:
+	$(MAKE) -f CMakeFiles\P3037_c.dir\build.make CMakeFiles/P3037_c.dir/depend
+	$(MAKE) -f CMakeFiles\P3037_c.dir\build.make CMakeFiles/P3037_c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=Z:\C_CPP_Project\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target P3037_c"
+.PHONY : CMakeFiles/P3037_c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/P3037_c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start Z:\C_CPP_Project\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/P3037_c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start Z:\C_CPP_Project\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/P3037_c.dir/rule
+
+# Convenience name for target.
+P3037_c: CMakeFiles/P3037_c.dir/rule
+
+.PHONY : P3037_c
+
+# clean rule for target.
+CMakeFiles/P3037_c.dir/clean:
+	$(MAKE) -f CMakeFiles\P3037_c.dir\build.make CMakeFiles/P3037_c.dir/clean
+.PHONY : CMakeFiles/P3037_c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/P3053_cpp.dir
+
+# All Build rule for target.
+CMakeFiles/P3053_cpp.dir/all:
+	$(MAKE) -f CMakeFiles\P3053_cpp.dir\build.make CMakeFiles/P3053_cpp.dir/depend
+	$(MAKE) -f CMakeFiles\P3053_cpp.dir\build.make CMakeFiles/P3053_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=Z:\C_CPP_Project\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target P3053_cpp"
+.PHONY : CMakeFiles/P3053_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/P3053_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start Z:\C_CPP_Project\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/P3053_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start Z:\C_CPP_Project\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/P3053_cpp.dir/rule
+
+# Convenience name for target.
+P3053_cpp: CMakeFiles/P3053_cpp.dir/rule
+
+.PHONY : P3053_cpp
+
+# clean rule for target.
+CMakeFiles/P3053_cpp.dir/clean:
+	$(MAKE) -f CMakeFiles\P3053_cpp.dir\build.make CMakeFiles/P3053_cpp.dir/clean
+.PHONY : CMakeFiles/P3053_cpp.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/P3037_cpp.dir
+
+# All Build rule for target.
+CMakeFiles/P3037_cpp.dir/all:
+	$(MAKE) -f CMakeFiles\P3037_cpp.dir\build.make CMakeFiles/P3037_cpp.dir/depend
+	$(MAKE) -f CMakeFiles\P3037_cpp.dir\build.make CMakeFiles/P3037_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=Z:\C_CPP_Project\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target P3037_cpp"
+.PHONY : CMakeFiles/P3037_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/P3037_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start Z:\C_CPP_Project\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/P3037_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start Z:\C_CPP_Project\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/P3037_cpp.dir/rule
+
+# Convenience name for target.
+P3037_cpp: CMakeFiles/P3037_cpp.dir/rule
+
+.PHONY : P3037_cpp
+
+# clean rule for target.
+CMakeFiles/P3037_cpp.dir/clean:
+	$(MAKE) -f CMakeFiles\P3037_cpp.dir\build.make CMakeFiles/P3037_cpp.dir/clean
+.PHONY : CMakeFiles/P3037_cpp.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/P3038_c.dir
+
+# All Build rule for target.
+CMakeFiles/P3038_c.dir/all:
+	$(MAKE) -f CMakeFiles\P3038_c.dir\build.make CMakeFiles/P3038_c.dir/depend
+	$(MAKE) -f CMakeFiles\P3038_c.dir\build.make CMakeFiles/P3038_c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=Z:\C_CPP_Project\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target P3038_c"
+.PHONY : CMakeFiles/P3038_c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/P3038_c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start Z:\C_CPP_Project\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/P3038_c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start Z:\C_CPP_Project\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/P3038_c.dir/rule
+
+# Convenience name for target.
+P3038_c: CMakeFiles/P3038_c.dir/rule
+
+.PHONY : P3038_c
+
+# clean rule for target.
+CMakeFiles/P3038_c.dir/clean:
+	$(MAKE) -f CMakeFiles\P3038_c.dir\build.make CMakeFiles/P3038_c.dir/clean
+.PHONY : CMakeFiles/P3038_c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/P3038_cpp.dir
+
+# All Build rule for target.
+CMakeFiles/P3038_cpp.dir/all:
+	$(MAKE) -f CMakeFiles\P3038_cpp.dir\build.make CMakeFiles/P3038_cpp.dir/depend
+	$(MAKE) -f CMakeFiles\P3038_cpp.dir\build.make CMakeFiles/P3038_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=Z:\C_CPP_Project\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target P3038_cpp"
+.PHONY : CMakeFiles/P3038_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/P3038_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start Z:\C_CPP_Project\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/P3038_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start Z:\C_CPP_Project\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/P3038_cpp.dir/rule
+
+# Convenience name for target.
+P3038_cpp: CMakeFiles/P3038_cpp.dir/rule
+
+.PHONY : P3038_cpp
+
+# clean rule for target.
+CMakeFiles/P3038_cpp.dir/clean:
+	$(MAKE) -f CMakeFiles\P3038_cpp.dir\build.make CMakeFiles/P3038_cpp.dir/clean
+.PHONY : CMakeFiles/P3038_cpp.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/P3039_c.dir
+
+# All Build rule for target.
+CMakeFiles/P3039_c.dir/all:
+	$(MAKE) -f CMakeFiles\P3039_c.dir\build.make CMakeFiles/P3039_c.dir/depend
+	$(MAKE) -f CMakeFiles\P3039_c.dir\build.make CMakeFiles/P3039_c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=Z:\C_CPP_Project\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target P3039_c"
+.PHONY : CMakeFiles/P3039_c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/P3039_c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start Z:\C_CPP_Project\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/P3039_c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start Z:\C_CPP_Project\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/P3039_c.dir/rule
+
+# Convenience name for target.
+P3039_c: CMakeFiles/P3039_c.dir/rule
+
+.PHONY : P3039_c
+
+# clean rule for target.
+CMakeFiles/P3039_c.dir/clean:
+	$(MAKE) -f CMakeFiles\P3039_c.dir\build.make CMakeFiles/P3039_c.dir/clean
+.PHONY : CMakeFiles/P3039_c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/P3039_cpp.dir
+
+# All Build rule for target.
+CMakeFiles/P3039_cpp.dir/all:
+	$(MAKE) -f CMakeFiles\P3039_cpp.dir\build.make CMakeFiles/P3039_cpp.dir/depend
+	$(MAKE) -f CMakeFiles\P3039_cpp.dir\build.make CMakeFiles/P3039_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=Z:\C_CPP_Project\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target P3039_cpp"
+.PHONY : CMakeFiles/P3039_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/P3039_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start Z:\C_CPP_Project\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/P3039_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start Z:\C_CPP_Project\onlinejudge_c_cpp\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/P3039_cpp.dir/rule
+
+# Convenience name for target.
+P3039_cpp: CMakeFiles/P3039_cpp.dir/rule
+
+.PHONY : P3039_cpp
+
+# clean rule for target.
+CMakeFiles/P3039_cpp.dir/clean:
+	$(MAKE) -f CMakeFiles\P3039_cpp.dir\build.make CMakeFiles/P3039_cpp.dir/clean
+.PHONY : CMakeFiles/P3039_cpp.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

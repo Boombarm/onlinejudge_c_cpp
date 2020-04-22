@@ -149,6 +149,19 @@ P3046_Domino_c/fast:
 .PHONY : P3046_Domino_c/fast
 
 #=============================================================================
+# Target rules for targets named P3053_c
+
+# Build rule for target.
+P3053_c: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 P3053_c
+.PHONY : P3053_c
+
+# fast build rule for target.
+P3053_c/fast:
+	$(MAKE) -f CMakeFiles\P3053_c.dir\build.make CMakeFiles/P3053_c.dir/build
+.PHONY : P3053_c/fast
+
+#=============================================================================
 # Target rules for targets named P3040_The_Christmas_Tree_c
 
 # Build rule for target.
@@ -173,6 +186,204 @@ P3040_The_Christmas_Tree_cpp: cmake_check_build_system
 P3040_The_Christmas_Tree_cpp/fast:
 	$(MAKE) -f CMakeFiles\P3040_The_Christmas_Tree_cpp.dir\build.make CMakeFiles/P3040_The_Christmas_Tree_cpp.dir/build
 .PHONY : P3040_The_Christmas_Tree_cpp/fast
+
+#=============================================================================
+# Target rules for targets named P3047_c
+
+# Build rule for target.
+P3047_c: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 P3047_c
+.PHONY : P3047_c
+
+# fast build rule for target.
+P3047_c/fast:
+	$(MAKE) -f CMakeFiles\P3047_c.dir\build.make CMakeFiles/P3047_c.dir/build
+.PHONY : P3047_c/fast
+
+#=============================================================================
+# Target rules for targets named P3047_cpp
+
+# Build rule for target.
+P3047_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 P3047_cpp
+.PHONY : P3047_cpp
+
+# fast build rule for target.
+P3047_cpp/fast:
+	$(MAKE) -f CMakeFiles\P3047_cpp.dir\build.make CMakeFiles/P3047_cpp.dir/build
+.PHONY : P3047_cpp/fast
+
+#=============================================================================
+# Target rules for targets named P3037_c
+
+# Build rule for target.
+P3037_c: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 P3037_c
+.PHONY : P3037_c
+
+# fast build rule for target.
+P3037_c/fast:
+	$(MAKE) -f CMakeFiles\P3037_c.dir\build.make CMakeFiles/P3037_c.dir/build
+.PHONY : P3037_c/fast
+
+#=============================================================================
+# Target rules for targets named P3053_cpp
+
+# Build rule for target.
+P3053_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 P3053_cpp
+.PHONY : P3053_cpp
+
+# fast build rule for target.
+P3053_cpp/fast:
+	$(MAKE) -f CMakeFiles\P3053_cpp.dir\build.make CMakeFiles/P3053_cpp.dir/build
+.PHONY : P3053_cpp/fast
+
+#=============================================================================
+# Target rules for targets named P3037_cpp
+
+# Build rule for target.
+P3037_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 P3037_cpp
+.PHONY : P3037_cpp
+
+# fast build rule for target.
+P3037_cpp/fast:
+	$(MAKE) -f CMakeFiles\P3037_cpp.dir\build.make CMakeFiles/P3037_cpp.dir/build
+.PHONY : P3037_cpp/fast
+
+#=============================================================================
+# Target rules for targets named P3038_c
+
+# Build rule for target.
+P3038_c: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 P3038_c
+.PHONY : P3038_c
+
+# fast build rule for target.
+P3038_c/fast:
+	$(MAKE) -f CMakeFiles\P3038_c.dir\build.make CMakeFiles/P3038_c.dir/build
+.PHONY : P3038_c/fast
+
+#=============================================================================
+# Target rules for targets named P3038_cpp
+
+# Build rule for target.
+P3038_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 P3038_cpp
+.PHONY : P3038_cpp
+
+# fast build rule for target.
+P3038_cpp/fast:
+	$(MAKE) -f CMakeFiles\P3038_cpp.dir\build.make CMakeFiles/P3038_cpp.dir/build
+.PHONY : P3038_cpp/fast
+
+#=============================================================================
+# Target rules for targets named P3039_c
+
+# Build rule for target.
+P3039_c: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 P3039_c
+.PHONY : P3039_c
+
+# fast build rule for target.
+P3039_c/fast:
+	$(MAKE) -f CMakeFiles\P3039_c.dir\build.make CMakeFiles/P3039_c.dir/build
+.PHONY : P3039_c/fast
+
+#=============================================================================
+# Target rules for targets named P3039_cpp
+
+# Build rule for target.
+P3039_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 P3039_cpp
+.PHONY : P3039_cpp
+
+# fast build rule for target.
+P3039_cpp/fast:
+	$(MAKE) -f CMakeFiles\P3039_cpp.dir\build.make CMakeFiles/P3039_cpp.dir/build
+.PHONY : P3039_cpp/fast
+
+URI/Accepted_C/P3037.obj: URI/Accepted_C/P3037.c.obj
+
+.PHONY : URI/Accepted_C/P3037.obj
+
+# target to build an object file
+URI/Accepted_C/P3037.c.obj:
+	$(MAKE) -f CMakeFiles\P3037_c.dir\build.make CMakeFiles/P3037_c.dir/URI/Accepted_C/P3037.c.obj
+.PHONY : URI/Accepted_C/P3037.c.obj
+
+URI/Accepted_C/P3037.i: URI/Accepted_C/P3037.c.i
+
+.PHONY : URI/Accepted_C/P3037.i
+
+# target to preprocess a source file
+URI/Accepted_C/P3037.c.i:
+	$(MAKE) -f CMakeFiles\P3037_c.dir\build.make CMakeFiles/P3037_c.dir/URI/Accepted_C/P3037.c.i
+.PHONY : URI/Accepted_C/P3037.c.i
+
+URI/Accepted_C/P3037.s: URI/Accepted_C/P3037.c.s
+
+.PHONY : URI/Accepted_C/P3037.s
+
+# target to generate assembly for a file
+URI/Accepted_C/P3037.c.s:
+	$(MAKE) -f CMakeFiles\P3037_c.dir\build.make CMakeFiles/P3037_c.dir/URI/Accepted_C/P3037.c.s
+.PHONY : URI/Accepted_C/P3037.c.s
+
+URI/Accepted_C/P3038.obj: URI/Accepted_C/P3038.c.obj
+
+.PHONY : URI/Accepted_C/P3038.obj
+
+# target to build an object file
+URI/Accepted_C/P3038.c.obj:
+	$(MAKE) -f CMakeFiles\P3038_c.dir\build.make CMakeFiles/P3038_c.dir/URI/Accepted_C/P3038.c.obj
+.PHONY : URI/Accepted_C/P3038.c.obj
+
+URI/Accepted_C/P3038.i: URI/Accepted_C/P3038.c.i
+
+.PHONY : URI/Accepted_C/P3038.i
+
+# target to preprocess a source file
+URI/Accepted_C/P3038.c.i:
+	$(MAKE) -f CMakeFiles\P3038_c.dir\build.make CMakeFiles/P3038_c.dir/URI/Accepted_C/P3038.c.i
+.PHONY : URI/Accepted_C/P3038.c.i
+
+URI/Accepted_C/P3038.s: URI/Accepted_C/P3038.c.s
+
+.PHONY : URI/Accepted_C/P3038.s
+
+# target to generate assembly for a file
+URI/Accepted_C/P3038.c.s:
+	$(MAKE) -f CMakeFiles\P3038_c.dir\build.make CMakeFiles/P3038_c.dir/URI/Accepted_C/P3038.c.s
+.PHONY : URI/Accepted_C/P3038.c.s
+
+URI/Accepted_C/P3039.obj: URI/Accepted_C/P3039.c.obj
+
+.PHONY : URI/Accepted_C/P3039.obj
+
+# target to build an object file
+URI/Accepted_C/P3039.c.obj:
+	$(MAKE) -f CMakeFiles\P3039_c.dir\build.make CMakeFiles/P3039_c.dir/URI/Accepted_C/P3039.c.obj
+.PHONY : URI/Accepted_C/P3039.c.obj
+
+URI/Accepted_C/P3039.i: URI/Accepted_C/P3039.c.i
+
+.PHONY : URI/Accepted_C/P3039.i
+
+# target to preprocess a source file
+URI/Accepted_C/P3039.c.i:
+	$(MAKE) -f CMakeFiles\P3039_c.dir\build.make CMakeFiles/P3039_c.dir/URI/Accepted_C/P3039.c.i
+.PHONY : URI/Accepted_C/P3039.c.i
+
+URI/Accepted_C/P3039.s: URI/Accepted_C/P3039.c.s
+
+.PHONY : URI/Accepted_C/P3039.s
+
+# target to generate assembly for a file
+URI/Accepted_C/P3039.c.s:
+	$(MAKE) -f CMakeFiles\P3039_c.dir\build.make CMakeFiles/P3039_c.dir/URI/Accepted_C/P3039.c.s
+.PHONY : URI/Accepted_C/P3039.c.s
 
 URI/Accepted_C/P3040_The_Christmas_Tree.obj: URI/Accepted_C/P3040_The_Christmas_Tree.c.obj
 
@@ -228,6 +439,141 @@ URI/Accepted_C/P3046_Domino.c.s:
 	$(MAKE) -f CMakeFiles\P3046_Domino_c.dir\build.make CMakeFiles/P3046_Domino_c.dir/URI/Accepted_C/P3046_Domino.c.s
 .PHONY : URI/Accepted_C/P3046_Domino.c.s
 
+URI/Accepted_C/P3047.obj: URI/Accepted_C/P3047.c.obj
+
+.PHONY : URI/Accepted_C/P3047.obj
+
+# target to build an object file
+URI/Accepted_C/P3047.c.obj:
+	$(MAKE) -f CMakeFiles\P3047_c.dir\build.make CMakeFiles/P3047_c.dir/URI/Accepted_C/P3047.c.obj
+.PHONY : URI/Accepted_C/P3047.c.obj
+
+URI/Accepted_C/P3047.i: URI/Accepted_C/P3047.c.i
+
+.PHONY : URI/Accepted_C/P3047.i
+
+# target to preprocess a source file
+URI/Accepted_C/P3047.c.i:
+	$(MAKE) -f CMakeFiles\P3047_c.dir\build.make CMakeFiles/P3047_c.dir/URI/Accepted_C/P3047.c.i
+.PHONY : URI/Accepted_C/P3047.c.i
+
+URI/Accepted_C/P3047.s: URI/Accepted_C/P3047.c.s
+
+.PHONY : URI/Accepted_C/P3047.s
+
+# target to generate assembly for a file
+URI/Accepted_C/P3047.c.s:
+	$(MAKE) -f CMakeFiles\P3047_c.dir\build.make CMakeFiles/P3047_c.dir/URI/Accepted_C/P3047.c.s
+.PHONY : URI/Accepted_C/P3047.c.s
+
+URI/Accepted_C/P3053.obj: URI/Accepted_C/P3053.c.obj
+
+.PHONY : URI/Accepted_C/P3053.obj
+
+# target to build an object file
+URI/Accepted_C/P3053.c.obj:
+	$(MAKE) -f CMakeFiles\P3053_c.dir\build.make CMakeFiles/P3053_c.dir/URI/Accepted_C/P3053.c.obj
+.PHONY : URI/Accepted_C/P3053.c.obj
+
+URI/Accepted_C/P3053.i: URI/Accepted_C/P3053.c.i
+
+.PHONY : URI/Accepted_C/P3053.i
+
+# target to preprocess a source file
+URI/Accepted_C/P3053.c.i:
+	$(MAKE) -f CMakeFiles\P3053_c.dir\build.make CMakeFiles/P3053_c.dir/URI/Accepted_C/P3053.c.i
+.PHONY : URI/Accepted_C/P3053.c.i
+
+URI/Accepted_C/P3053.s: URI/Accepted_C/P3053.c.s
+
+.PHONY : URI/Accepted_C/P3053.s
+
+# target to generate assembly for a file
+URI/Accepted_C/P3053.c.s:
+	$(MAKE) -f CMakeFiles\P3053_c.dir\build.make CMakeFiles/P3053_c.dir/URI/Accepted_C/P3053.c.s
+.PHONY : URI/Accepted_C/P3053.c.s
+
+URI/Accepted_CPP/P3037.obj: URI/Accepted_CPP/P3037.cpp.obj
+
+.PHONY : URI/Accepted_CPP/P3037.obj
+
+# target to build an object file
+URI/Accepted_CPP/P3037.cpp.obj:
+	$(MAKE) -f CMakeFiles\P3037_cpp.dir\build.make CMakeFiles/P3037_cpp.dir/URI/Accepted_CPP/P3037.cpp.obj
+.PHONY : URI/Accepted_CPP/P3037.cpp.obj
+
+URI/Accepted_CPP/P3037.i: URI/Accepted_CPP/P3037.cpp.i
+
+.PHONY : URI/Accepted_CPP/P3037.i
+
+# target to preprocess a source file
+URI/Accepted_CPP/P3037.cpp.i:
+	$(MAKE) -f CMakeFiles\P3037_cpp.dir\build.make CMakeFiles/P3037_cpp.dir/URI/Accepted_CPP/P3037.cpp.i
+.PHONY : URI/Accepted_CPP/P3037.cpp.i
+
+URI/Accepted_CPP/P3037.s: URI/Accepted_CPP/P3037.cpp.s
+
+.PHONY : URI/Accepted_CPP/P3037.s
+
+# target to generate assembly for a file
+URI/Accepted_CPP/P3037.cpp.s:
+	$(MAKE) -f CMakeFiles\P3037_cpp.dir\build.make CMakeFiles/P3037_cpp.dir/URI/Accepted_CPP/P3037.cpp.s
+.PHONY : URI/Accepted_CPP/P3037.cpp.s
+
+URI/Accepted_CPP/P3038.obj: URI/Accepted_CPP/P3038.cpp.obj
+
+.PHONY : URI/Accepted_CPP/P3038.obj
+
+# target to build an object file
+URI/Accepted_CPP/P3038.cpp.obj:
+	$(MAKE) -f CMakeFiles\P3038_cpp.dir\build.make CMakeFiles/P3038_cpp.dir/URI/Accepted_CPP/P3038.cpp.obj
+.PHONY : URI/Accepted_CPP/P3038.cpp.obj
+
+URI/Accepted_CPP/P3038.i: URI/Accepted_CPP/P3038.cpp.i
+
+.PHONY : URI/Accepted_CPP/P3038.i
+
+# target to preprocess a source file
+URI/Accepted_CPP/P3038.cpp.i:
+	$(MAKE) -f CMakeFiles\P3038_cpp.dir\build.make CMakeFiles/P3038_cpp.dir/URI/Accepted_CPP/P3038.cpp.i
+.PHONY : URI/Accepted_CPP/P3038.cpp.i
+
+URI/Accepted_CPP/P3038.s: URI/Accepted_CPP/P3038.cpp.s
+
+.PHONY : URI/Accepted_CPP/P3038.s
+
+# target to generate assembly for a file
+URI/Accepted_CPP/P3038.cpp.s:
+	$(MAKE) -f CMakeFiles\P3038_cpp.dir\build.make CMakeFiles/P3038_cpp.dir/URI/Accepted_CPP/P3038.cpp.s
+.PHONY : URI/Accepted_CPP/P3038.cpp.s
+
+URI/Accepted_CPP/P3039.obj: URI/Accepted_CPP/P3039.cpp.obj
+
+.PHONY : URI/Accepted_CPP/P3039.obj
+
+# target to build an object file
+URI/Accepted_CPP/P3039.cpp.obj:
+	$(MAKE) -f CMakeFiles\P3039_cpp.dir\build.make CMakeFiles/P3039_cpp.dir/URI/Accepted_CPP/P3039.cpp.obj
+.PHONY : URI/Accepted_CPP/P3039.cpp.obj
+
+URI/Accepted_CPP/P3039.i: URI/Accepted_CPP/P3039.cpp.i
+
+.PHONY : URI/Accepted_CPP/P3039.i
+
+# target to preprocess a source file
+URI/Accepted_CPP/P3039.cpp.i:
+	$(MAKE) -f CMakeFiles\P3039_cpp.dir\build.make CMakeFiles/P3039_cpp.dir/URI/Accepted_CPP/P3039.cpp.i
+.PHONY : URI/Accepted_CPP/P3039.cpp.i
+
+URI/Accepted_CPP/P3039.s: URI/Accepted_CPP/P3039.cpp.s
+
+.PHONY : URI/Accepted_CPP/P3039.s
+
+# target to generate assembly for a file
+URI/Accepted_CPP/P3039.cpp.s:
+	$(MAKE) -f CMakeFiles\P3039_cpp.dir\build.make CMakeFiles/P3039_cpp.dir/URI/Accepted_CPP/P3039.cpp.s
+.PHONY : URI/Accepted_CPP/P3039.cpp.s
+
 URI/Accepted_CPP/P3040_The_Christmas_Tree.obj: URI/Accepted_CPP/P3040_The_Christmas_Tree.cpp.obj
 
 .PHONY : URI/Accepted_CPP/P3040_The_Christmas_Tree.obj
@@ -282,6 +628,60 @@ URI/Accepted_CPP/P3046_Domino.cpp.s:
 	$(MAKE) -f CMakeFiles\P3046_Domino.dir\build.make CMakeFiles/P3046_Domino.dir/URI/Accepted_CPP/P3046_Domino.cpp.s
 .PHONY : URI/Accepted_CPP/P3046_Domino.cpp.s
 
+URI/Accepted_CPP/P3047.obj: URI/Accepted_CPP/P3047.cpp.obj
+
+.PHONY : URI/Accepted_CPP/P3047.obj
+
+# target to build an object file
+URI/Accepted_CPP/P3047.cpp.obj:
+	$(MAKE) -f CMakeFiles\P3047_cpp.dir\build.make CMakeFiles/P3047_cpp.dir/URI/Accepted_CPP/P3047.cpp.obj
+.PHONY : URI/Accepted_CPP/P3047.cpp.obj
+
+URI/Accepted_CPP/P3047.i: URI/Accepted_CPP/P3047.cpp.i
+
+.PHONY : URI/Accepted_CPP/P3047.i
+
+# target to preprocess a source file
+URI/Accepted_CPP/P3047.cpp.i:
+	$(MAKE) -f CMakeFiles\P3047_cpp.dir\build.make CMakeFiles/P3047_cpp.dir/URI/Accepted_CPP/P3047.cpp.i
+.PHONY : URI/Accepted_CPP/P3047.cpp.i
+
+URI/Accepted_CPP/P3047.s: URI/Accepted_CPP/P3047.cpp.s
+
+.PHONY : URI/Accepted_CPP/P3047.s
+
+# target to generate assembly for a file
+URI/Accepted_CPP/P3047.cpp.s:
+	$(MAKE) -f CMakeFiles\P3047_cpp.dir\build.make CMakeFiles/P3047_cpp.dir/URI/Accepted_CPP/P3047.cpp.s
+.PHONY : URI/Accepted_CPP/P3047.cpp.s
+
+URI/Accepted_CPP/P3053.obj: URI/Accepted_CPP/P3053.cpp.obj
+
+.PHONY : URI/Accepted_CPP/P3053.obj
+
+# target to build an object file
+URI/Accepted_CPP/P3053.cpp.obj:
+	$(MAKE) -f CMakeFiles\P3053_cpp.dir\build.make CMakeFiles/P3053_cpp.dir/URI/Accepted_CPP/P3053.cpp.obj
+.PHONY : URI/Accepted_CPP/P3053.cpp.obj
+
+URI/Accepted_CPP/P3053.i: URI/Accepted_CPP/P3053.cpp.i
+
+.PHONY : URI/Accepted_CPP/P3053.i
+
+# target to preprocess a source file
+URI/Accepted_CPP/P3053.cpp.i:
+	$(MAKE) -f CMakeFiles\P3053_cpp.dir\build.make CMakeFiles/P3053_cpp.dir/URI/Accepted_CPP/P3053.cpp.i
+.PHONY : URI/Accepted_CPP/P3053.cpp.i
+
+URI/Accepted_CPP/P3053.s: URI/Accepted_CPP/P3053.cpp.s
+
+.PHONY : URI/Accepted_CPP/P3053.s
+
+# target to generate assembly for a file
+URI/Accepted_CPP/P3053.cpp.s:
+	$(MAKE) -f CMakeFiles\P3053_cpp.dir\build.make CMakeFiles/P3053_cpp.dir/URI/Accepted_CPP/P3053.cpp.s
+.PHONY : URI/Accepted_CPP/P3053.cpp.s
+
 URI/Trying/P2556_CEIs_Reopening.obj: URI/Trying/P2556_CEIs_Reopening.cpp.obj
 
 .PHONY : URI/Trying/P2556_CEIs_Reopening.obj
@@ -319,21 +719,61 @@ help:
 	@echo ... rebuild_cache
 	@echo ... P2556
 	@echo ... P3046_Domino_c
+	@echo ... P3053_c
 	@echo ... P3040_The_Christmas_Tree_c
 	@echo ... P3040_The_Christmas_Tree_cpp
+	@echo ... P3047_c
+	@echo ... P3047_cpp
+	@echo ... P3037_c
+	@echo ... P3053_cpp
+	@echo ... P3037_cpp
+	@echo ... P3038_c
+	@echo ... P3038_cpp
+	@echo ... P3039_c
+	@echo ... P3039_cpp
 	@echo ... edit_cache
+	@echo ... URI/Accepted_C/P3037.obj
+	@echo ... URI/Accepted_C/P3037.i
+	@echo ... URI/Accepted_C/P3037.s
+	@echo ... URI/Accepted_C/P3038.obj
+	@echo ... URI/Accepted_C/P3038.i
+	@echo ... URI/Accepted_C/P3038.s
+	@echo ... URI/Accepted_C/P3039.obj
+	@echo ... URI/Accepted_C/P3039.i
+	@echo ... URI/Accepted_C/P3039.s
 	@echo ... URI/Accepted_C/P3040_The_Christmas_Tree.obj
 	@echo ... URI/Accepted_C/P3040_The_Christmas_Tree.i
 	@echo ... URI/Accepted_C/P3040_The_Christmas_Tree.s
 	@echo ... URI/Accepted_C/P3046_Domino.obj
 	@echo ... URI/Accepted_C/P3046_Domino.i
 	@echo ... URI/Accepted_C/P3046_Domino.s
+	@echo ... URI/Accepted_C/P3047.obj
+	@echo ... URI/Accepted_C/P3047.i
+	@echo ... URI/Accepted_C/P3047.s
+	@echo ... URI/Accepted_C/P3053.obj
+	@echo ... URI/Accepted_C/P3053.i
+	@echo ... URI/Accepted_C/P3053.s
+	@echo ... URI/Accepted_CPP/P3037.obj
+	@echo ... URI/Accepted_CPP/P3037.i
+	@echo ... URI/Accepted_CPP/P3037.s
+	@echo ... URI/Accepted_CPP/P3038.obj
+	@echo ... URI/Accepted_CPP/P3038.i
+	@echo ... URI/Accepted_CPP/P3038.s
+	@echo ... URI/Accepted_CPP/P3039.obj
+	@echo ... URI/Accepted_CPP/P3039.i
+	@echo ... URI/Accepted_CPP/P3039.s
 	@echo ... URI/Accepted_CPP/P3040_The_Christmas_Tree.obj
 	@echo ... URI/Accepted_CPP/P3040_The_Christmas_Tree.i
 	@echo ... URI/Accepted_CPP/P3040_The_Christmas_Tree.s
 	@echo ... URI/Accepted_CPP/P3046_Domino.obj
 	@echo ... URI/Accepted_CPP/P3046_Domino.i
 	@echo ... URI/Accepted_CPP/P3046_Domino.s
+	@echo ... URI/Accepted_CPP/P3047.obj
+	@echo ... URI/Accepted_CPP/P3047.i
+	@echo ... URI/Accepted_CPP/P3047.s
+	@echo ... URI/Accepted_CPP/P3053.obj
+	@echo ... URI/Accepted_CPP/P3053.i
+	@echo ... URI/Accepted_CPP/P3053.s
 	@echo ... URI/Trying/P2556_CEIs_Reopening.obj
 	@echo ... URI/Trying/P2556_CEIs_Reopening.i
 	@echo ... URI/Trying/P2556_CEIs_Reopening.s
