@@ -17,3 +17,4 @@ add_executable(P3038_cpp URI/Accepted_CPP/P3038.cpp)
 
 add_executable(P3039_c URI/Accepted_C/P3039.c)
 add_executable(P3039_cpp URI/Accepted_CPP/P3039.cpp)
+add_executable(example_struct Example/example_struct.cpp)
